@@ -2,9 +2,6 @@ package com.looker.core.database.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
-import com.looker.core.model.new.App
-import com.looker.core.model.new.Author
-import com.looker.core.model.new.Donate
 import com.looker.core.model.new.Localized
 import kotlinx.serialization.Serializable
 
