@@ -1,6 +1,8 @@
 ---
-name: Bug report about: Create a report to help us improve title: ''
-labels: ''
+name: Bug report
+about: Create a report to help us improve
+title: "[BUG]"
+labels: bug
 assignees: ''
 
 ---
@@ -10,7 +12,6 @@ A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
@@ -23,10 +24,9 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Smartphone (please complete the following information):**
-
-- Device: [e.g. Pixel6]
-- OS: [e.g. Android 8.1]
-- Version [e.g. 0.4.1]
+ - Device: [e.g. Pixel 6]
+ - OS: [e.g. Android 12L]
+ - Version [e.g. v0.5.1]
 
 **Additional context**
 Add any other context about the problem here.
