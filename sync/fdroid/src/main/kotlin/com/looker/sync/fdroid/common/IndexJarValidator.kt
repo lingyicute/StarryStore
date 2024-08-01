@@ -1,8 +1,9 @@
-package com.looker.sync.fdroid
+package com.looker.sync.fdroid.common
 
 import com.looker.core.domain.model.Fingerprint
 import com.looker.core.domain.model.fingerprint
 import com.looker.network.validation.invalid
+import com.looker.sync.fdroid.IndexValidator
 import com.looker.sync.fdroid.utils.certificate
 import com.looker.sync.fdroid.utils.codeSigner
 import kotlinx.coroutines.CoroutineDispatcher

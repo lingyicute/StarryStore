@@ -1,4 +1,4 @@
-package com.looker.core.domain
+package com.looker.sync.fdroid
 
 import com.looker.core.domain.model.Fingerprint
 import com.looker.core.domain.model.Repo
