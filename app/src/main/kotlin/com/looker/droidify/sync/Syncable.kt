@@ -1,8 +1,7 @@
-package com.looker.sync.fdroid
+package com.looker.droidify.sync
 
 import com.looker.core.domain.model.Fingerprint
 import com.looker.core.domain.model.Repo
-import com.looker.sync.fdroid.v2.model.IndexV2
 
 /**
  * Expected Architecture: [https://excalidraw.com/#json=JqpGunWTJONjq-ecDNiPg,j9t0X4coeNvIG7B33GTq6A]
@@ -16,6 +15,6 @@ interface Syncable<T> {
 
     suspend fun sync(
         repo: Repo,
-    ): Pair<Fingerprint, IndexV2?>
+    ): Pair<Fingerprint, com.looker.droidify.sync.v2.model.IndexV2?>
 
 }

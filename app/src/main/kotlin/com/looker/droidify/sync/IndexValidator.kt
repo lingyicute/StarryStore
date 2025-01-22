@@ -1,4 +1,4 @@
-package com.looker.sync.fdroid
+package com.looker.droidify.sync
 
 import com.looker.core.domain.model.Fingerprint
 import com.looker.network.validation.ValidationException

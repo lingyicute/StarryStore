@@ -1,4 +1,4 @@
-package com.looker.sync.fdroid.common
+package com.looker.droidify.sync.common
 
 import kotlinx.serialization.json.Json
 
