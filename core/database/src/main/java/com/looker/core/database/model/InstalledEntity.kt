@@ -3,10 +3,11 @@ package com.looker.core.database.model
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity
+@Entity(tableName = "installed")
 data class InstalledEntity(
-    @PrimaryKey
     val packageName: String,
     val versionCode: Long,
-    val signature: String
+    val signature: String,
+    @PrimaryKey(autoGenerate = true)
+    val id: Long = -1L,
 )
