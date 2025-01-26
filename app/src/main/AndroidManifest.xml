@@ -26,7 +26,7 @@
         android:required="false" />
 
     <application
-        android:name=".Droidify"
+        android:name=".Starrystore"
         android:allowBackup="true"
         android:banner="@drawable/tv_banner"
         android:enableOnBackInvokedCallback="true"
@@ -38,7 +38,7 @@
         tools:ignore="UnusedAttribute">
 
         <receiver
-            android:name=".Droidify$BootReceiver"
+            android:name=".Starrystore$BootReceiver"
             android:exported="true">
 
             <intent-filter>

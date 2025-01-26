@@ -55,7 +55,7 @@ import kotlin.time.Duration.Companion.INFINITE
 import kotlin.time.Duration.Companion.hours
 
 @HiltAndroidApp
-class Droidify : Application(), ImageLoaderFactory, Configuration.Provider {
+class Starrystore : Application(), ImageLoaderFactory, Configuration.Provider {
 
     private val parentJob = SupervisorJob()
     private val appScope = CoroutineScope(Dispatchers.Default + parentJob)

@@ -47,9 +47,6 @@
 - Open a Pull Request
 - Your PR will undergo review
 
-## Translations
-[![Translation status](https://hosted.weblate.org/widgets/droidify/-/horizontal-auto.svg)](https://hosted.weblate.org/engage/droidify/?utm_source=widget)
-
 ## License
 
 ```
