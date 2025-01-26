@@ -3,8 +3,6 @@ name: Build Release APK
 on:
   workflow_dispatch:
   push:
-    tags:
-      - '*'
 
 concurrency:
   group: "release-build"
@@ -46,27 +44,7 @@ jobs:
       - name: Checks
         run: find . -type f -name "*.apk"
 
-      - uses: r0adkll/sign-android-release@v1
-        name: Signing APK
-        id: sign_app
-        with:
-          releaseDirectory: app/build/outputs/apk/release
-          signingKeyBase64: ${{ secrets.KEY_BASE64 }}
-          alias: ${{ secrets.KEY_ALIAS }}
-          keyStorePassword: ${{ secrets.KEYSTORE_PASS }}
-          keyPassword: ${{ secrets.KEYSTORE_PASS }}
-        env:
-          BUILD_TOOLS_VERSION: "34.0.0"
-
-      - uses: softprops/action-gh-release@v2
-        name: Create Release
-        id: publish_release
-        with:
-          files: ${{steps.sign_app.outputs.signedReleaseFile}}
-          draft: true
-          prerelease: false
-
       - uses: actions/upload-artifact@v4
         with:
           name: Signed APK
-          path: ${{steps.sign_app.outputs.signedReleaseFile}}
+          path: app/build/outputs/apk
