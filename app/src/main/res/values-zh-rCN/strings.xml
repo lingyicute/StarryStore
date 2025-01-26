@@ -230,7 +230,7 @@
     <string name="has_tethered_network">依赖于特定网络服务</string>
     <string name="cannot_open_link">无法打开链接</string>
     <string name="require_background_access">小提示</string>
-    <string name="require_background_access_DESC">如果希望 StarryStore 在后台自动同步数据，需要在系统设置中授予它“后台运行”权限哦。</string>
+    <string name="require_background_access_DESC">如果希望 StarryStore 在后台自动执行同步，记得去系统设置里授予它“后台运行”权限哦。</string>
     <string name="installation_failed">安装失败</string>
     <string name="installation_failed_DESC">无法安装 %s</string>
     <string name="uninstalled_application">已卸载</string>
