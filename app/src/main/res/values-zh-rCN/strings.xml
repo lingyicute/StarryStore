@@ -88,7 +88,7 @@
     <string name="no_applications_installed">没有已安装的应用</string>
     <string name="no_description_available_DESC">没有描述可用</string>
     <string name="no_matching_applications_found">找不到任何这样的应用</string>
-    <string name="no_proxy">无代理</string>
+    <string name="no_proxy">系统代理</string>
     <string name="notify_about_updates">通知更新</string>
     <string name="notify_about_updates_summary">有新版本可用时显示通知</string>
     <string name="number_of_applications">应用数量</string>
