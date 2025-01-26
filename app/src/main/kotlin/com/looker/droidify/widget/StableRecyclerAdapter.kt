@@ -1,4 +1,4 @@
-package com.looker.droidify.widget
+package com.looker.starrystore.widget
 
 import androidx.recyclerview.widget.RecyclerView
 

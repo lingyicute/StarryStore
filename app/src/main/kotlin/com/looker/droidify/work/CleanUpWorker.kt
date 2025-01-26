@@ -1,4 +1,4 @@
-package com.looker.droidify.work
+package com.looker.starrystore.work
 
 import android.content.Context
 import android.util.Log
@@ -10,8 +10,8 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.WorkerParameters
-import com.looker.droidify.utility.common.cache.Cache
-import com.looker.droidify.datastore.SettingsRepository
+import com.looker.starrystore.utility.common.cache.Cache
+import com.looker.starrystore.datastore.SettingsRepository
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
 import kotlin.time.Duration

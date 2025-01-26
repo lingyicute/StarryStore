@@ -1,11 +1,11 @@
-package com.looker.droidify.utility.common.extension
+package com.looker.starrystore.utility.common.extension
 
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import androidx.core.app.TaskStackBuilder
-import com.looker.droidify.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.SdkCheck
 
 fun intent(action: String, block: Intent.() -> Unit = {}): Intent {
     return Intent(action).apply(block)

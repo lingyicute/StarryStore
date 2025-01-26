@@ -1,9 +1,9 @@
-package com.looker.droidify.sync.v2
+package com.looker.starrystore.sync.v2
 
-import com.looker.droidify.domain.model.Fingerprint
-import com.looker.droidify.domain.model.Repo
-import com.looker.droidify.sync.Parser
-import com.looker.droidify.sync.v2.model.IndexV2Diff
+import com.looker.starrystore.domain.model.Fingerprint
+import com.looker.starrystore.domain.model.Repo
+import com.looker.starrystore.sync.Parser
+import com.looker.starrystore.sync.v2.model.IndexV2Diff
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json

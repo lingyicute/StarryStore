@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common
+package com.looker.starrystore.utility.common
 
 import android.os.Build
 import androidx.annotation.ChecksSdkIntAtLeast

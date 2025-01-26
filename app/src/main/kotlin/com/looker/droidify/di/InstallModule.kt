@@ -1,8 +1,8 @@
-package com.looker.droidify.di
+package com.looker.starrystore.di
 
 import android.content.Context
-import com.looker.droidify.datastore.SettingsRepository
-import com.looker.droidify.installer.InstallManager
+import com.looker.starrystore.datastore.SettingsRepository
+import com.looker.starrystore.installer.InstallManager
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

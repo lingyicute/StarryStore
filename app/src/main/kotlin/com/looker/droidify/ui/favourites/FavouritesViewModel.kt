@@ -1,12 +1,12 @@
-package com.looker.droidify.ui.favourites
+package com.looker.starrystore.ui.favourites
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.looker.droidify.utility.common.extension.asStateFlow
-import com.looker.droidify.datastore.SettingsRepository
-import com.looker.droidify.datastore.get
-import com.looker.droidify.model.Product
-import com.looker.droidify.database.Database
+import com.looker.starrystore.utility.common.extension.asStateFlow
+import com.looker.starrystore.datastore.SettingsRepository
+import com.looker.starrystore.datastore.get
+import com.looker.starrystore.model.Product
+import com.looker.starrystore.database.Database
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.StateFlow

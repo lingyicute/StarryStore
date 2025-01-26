@@ -1,6 +1,6 @@
 @file:Suppress("unused")
 
-package com.looker.droidify.di
+package com.looker.starrystore.di
 
 import dagger.Module
 import dagger.Provides

@@ -1,4 +1,4 @@
-package com.looker.droidify.datastore
+package com.looker.starrystore.datastore
 
 import android.net.Uri
 import android.util.Log
@@ -12,14 +12,14 @@ import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.core.stringSetPreferencesKey
-import com.looker.droidify.datastore.model.AutoSync
-import com.looker.droidify.datastore.model.InstallerType
-import com.looker.droidify.datastore.model.ProxyPreference
-import com.looker.droidify.datastore.model.ProxyType
-import com.looker.droidify.datastore.model.SortOrder
-import com.looker.droidify.datastore.model.Theme
-import com.looker.droidify.utility.common.Exporter
-import com.looker.droidify.utility.common.extension.updateAsMutable
+import com.looker.starrystore.datastore.model.AutoSync
+import com.looker.starrystore.datastore.model.InstallerType
+import com.looker.starrystore.datastore.model.ProxyPreference
+import com.looker.starrystore.datastore.model.ProxyType
+import com.looker.starrystore.datastore.model.SortOrder
+import com.looker.starrystore.datastore.model.Theme
+import com.looker.starrystore.utility.common.Exporter
+import com.looker.starrystore.utility.common.extension.updateAsMutable
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.first

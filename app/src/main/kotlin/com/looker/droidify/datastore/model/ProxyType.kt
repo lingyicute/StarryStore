@@ -1,4 +1,4 @@
-package com.looker.droidify.datastore.model
+package com.looker.starrystore.datastore.model
 
 enum class ProxyType {
     DIRECT,

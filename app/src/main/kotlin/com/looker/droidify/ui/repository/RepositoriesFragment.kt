@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.repository
+package com.looker.starrystore.ui.repository
 
 import android.database.Cursor
 import android.os.Bundle
@@ -6,17 +6,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.looker.droidify.R
-import com.looker.droidify.utility.common.extension.dp
-import com.looker.droidify.utility.common.extension.systemBarsMargin
-import com.looker.droidify.utility.common.extension.systemBarsPadding
-import com.looker.droidify.database.CursorOwner
-import com.looker.droidify.databinding.RecyclerViewWithFabBinding
-import com.looker.droidify.service.Connection
-import com.looker.droidify.service.SyncService
-import com.looker.droidify.ui.ScreenFragment
-import com.looker.droidify.utility.extension.screenActivity
-import com.looker.droidify.widget.addDivider
+import com.looker.starrystore.R
+import com.looker.starrystore.utility.common.extension.dp
+import com.looker.starrystore.utility.common.extension.systemBarsMargin
+import com.looker.starrystore.utility.common.extension.systemBarsPadding
+import com.looker.starrystore.database.CursorOwner
+import com.looker.starrystore.databinding.RecyclerViewWithFabBinding
+import com.looker.starrystore.service.Connection
+import com.looker.starrystore.service.SyncService
+import com.looker.starrystore.ui.ScreenFragment
+import com.looker.starrystore.utility.extension.screenActivity
+import com.looker.starrystore.widget.addDivider
 
 class RepositoriesFragment : ScreenFragment(), CursorOwner.Callback {
 

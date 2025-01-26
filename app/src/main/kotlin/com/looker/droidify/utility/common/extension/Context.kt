@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common.extension
+package com.looker.starrystore.utility.common.extension
 
 import android.app.NotificationManager
 import android.app.job.JobScheduler
@@ -15,7 +15,7 @@ import androidx.annotation.DrawableRes
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.core.content.ContextCompat
 import androidx.core.content.getSystemService
-import com.looker.droidify.R
+import com.looker.starrystore.R
 
 inline val Context.clipboardManager: ClipboardManager?
     get() = getSystemService()

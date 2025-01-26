@@ -1,9 +1,9 @@
-package com.looker.droidify.sync.common
+package com.looker.starrystore.sync.common
 
 import android.content.Context
-import com.looker.droidify.utility.common.cache.Cache
-import com.looker.droidify.domain.model.Repo
-import com.looker.droidify.network.Downloader
+import com.looker.starrystore.utility.common.cache.Cache
+import com.looker.starrystore.domain.model.Repo
+import com.looker.starrystore.network.Downloader
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File

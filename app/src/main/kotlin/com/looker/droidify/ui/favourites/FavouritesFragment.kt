@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.favourites
+package com.looker.starrystore.ui.favourites
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,11 +11,11 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.looker.droidify.R
-import com.looker.droidify.utility.common.extension.systemBarsPadding
-import com.looker.droidify.database.Database
-import com.looker.droidify.ui.ScreenFragment
-import com.looker.droidify.utility.extension.screenActivity
+import com.looker.starrystore.R
+import com.looker.starrystore.utility.common.extension.systemBarsPadding
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.ui.ScreenFragment
+import com.looker.starrystore.utility.extension.screenActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

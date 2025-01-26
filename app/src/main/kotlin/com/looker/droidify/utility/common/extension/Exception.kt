@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common.extension
+package com.looker.starrystore.utility.common.extension
 
 import kotlinx.coroutines.CancellationException
 

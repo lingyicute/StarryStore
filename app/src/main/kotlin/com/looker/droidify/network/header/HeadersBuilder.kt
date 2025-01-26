@@ -1,4 +1,4 @@
-package com.looker.droidify.network.header
+package com.looker.starrystore.network.header
 
 import java.util.Date
 

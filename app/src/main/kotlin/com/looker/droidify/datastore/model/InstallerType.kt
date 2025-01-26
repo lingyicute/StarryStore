@@ -1,6 +1,6 @@
-package com.looker.droidify.datastore.model
+package com.looker.starrystore.datastore.model
 
-import com.looker.droidify.utility.common.device.Miui
+import com.looker.starrystore.utility.common.device.Miui
 
 enum class InstallerType {
     LEGACY,

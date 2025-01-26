@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.appDetail
+package com.looker.starrystore.ui.appDetail
 
 import android.content.ActivityNotFoundException
 import android.content.ComponentName
@@ -22,38 +22,38 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.SimpleItemAnimator
 import coil.load
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.looker.droidify.utility.common.cache.Cache
-import com.looker.droidify.utility.common.extension.getLauncherActivities
-import com.looker.droidify.utility.common.extension.getMutatedIcon
-import com.looker.droidify.utility.common.extension.isFirstItemVisible
-import com.looker.droidify.utility.common.extension.isSystemApplication
-import com.looker.droidify.utility.common.extension.systemBarsPadding
-import com.looker.droidify.utility.common.extension.updateAsMutable
-import com.looker.droidify.content.ProductPreferences
-import com.looker.droidify.model.InstalledItem
-import com.looker.droidify.model.Product
-import com.looker.droidify.model.ProductPreference
-import com.looker.droidify.model.Release
-import com.looker.droidify.model.Repository
-import com.looker.droidify.model.findSuggested
-import com.looker.droidify.service.Connection
-import com.looker.droidify.service.DownloadService
-import com.looker.droidify.ui.Message
-import com.looker.droidify.ui.MessageDialog
-import com.looker.droidify.ui.ScreenFragment
-import com.looker.droidify.ui.appDetail.AppDetailViewModel.Companion.ARG_PACKAGE_NAME
-import com.looker.droidify.ui.appDetail.AppDetailViewModel.Companion.ARG_REPO_ADDRESS
-import com.looker.droidify.utility.extension.screenActivity
-import com.looker.droidify.utility.extension.startUpdate
-import com.looker.droidify.installer.installers.launchShizuku
-import com.looker.droidify.installer.model.InstallState
-import com.looker.droidify.installer.model.isCancellable
+import com.looker.starrystore.utility.common.cache.Cache
+import com.looker.starrystore.utility.common.extension.getLauncherActivities
+import com.looker.starrystore.utility.common.extension.getMutatedIcon
+import com.looker.starrystore.utility.common.extension.isFirstItemVisible
+import com.looker.starrystore.utility.common.extension.isSystemApplication
+import com.looker.starrystore.utility.common.extension.systemBarsPadding
+import com.looker.starrystore.utility.common.extension.updateAsMutable
+import com.looker.starrystore.content.ProductPreferences
+import com.looker.starrystore.model.InstalledItem
+import com.looker.starrystore.model.Product
+import com.looker.starrystore.model.ProductPreference
+import com.looker.starrystore.model.Release
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.model.findSuggested
+import com.looker.starrystore.service.Connection
+import com.looker.starrystore.service.DownloadService
+import com.looker.starrystore.ui.Message
+import com.looker.starrystore.ui.MessageDialog
+import com.looker.starrystore.ui.ScreenFragment
+import com.looker.starrystore.ui.appDetail.AppDetailViewModel.Companion.ARG_PACKAGE_NAME
+import com.looker.starrystore.ui.appDetail.AppDetailViewModel.Companion.ARG_REPO_ADDRESS
+import com.looker.starrystore.utility.extension.screenActivity
+import com.looker.starrystore.utility.extension.startUpdate
+import com.looker.starrystore.installer.installers.launchShizuku
+import com.looker.starrystore.installer.model.InstallState
+import com.looker.starrystore.installer.model.isCancellable
 import com.stfalcon.imageviewer.StfalconImageViewer
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
-import com.looker.droidify.R.string as stringRes
+import com.looker.starrystore.R.string as stringRes
 
 @AndroidEntryPoint
 class AppDetailFragment() : ScreenFragment(), AppDetailAdapter.Callbacks {

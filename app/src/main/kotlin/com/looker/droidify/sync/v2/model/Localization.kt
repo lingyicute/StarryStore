@@ -1,4 +1,4 @@
-package com.looker.droidify.sync.v2.model
+package com.looker.starrystore.sync.v2.model
 
 typealias LocalizedString = Map<String, String>
 typealias NullableLocalizedString = Map<String, String?>

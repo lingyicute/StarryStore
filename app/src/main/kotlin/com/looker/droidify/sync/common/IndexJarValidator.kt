@@ -1,18 +1,18 @@
-package com.looker.droidify.sync.common
+package com.looker.starrystore.sync.common
 
-import com.looker.droidify.domain.model.Fingerprint
-import com.looker.droidify.domain.model.check
-import com.looker.droidify.domain.model.fingerprint
-import com.looker.droidify.network.validation.invalid
-import com.looker.droidify.sync.utils.certificate
-import com.looker.droidify.sync.utils.codeSigner
+import com.looker.starrystore.domain.model.Fingerprint
+import com.looker.starrystore.domain.model.check
+import com.looker.starrystore.domain.model.fingerprint
+import com.looker.starrystore.network.validation.invalid
+import com.looker.starrystore.sync.utils.certificate
+import com.looker.starrystore.sync.utils.codeSigner
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import java.util.jar.JarEntry
 
 class IndexJarValidator(
     private val dispatcher: CoroutineDispatcher
-) : com.looker.droidify.sync.IndexValidator {
+) : com.looker.starrystore.sync.IndexValidator {
     override suspend fun validate(
         jarEntry: JarEntry,
         expectedFingerprint: Fingerprint?

@@ -1,11 +1,11 @@
-package com.looker.droidify.sync
+package com.looker.starrystore.sync
 
-import com.looker.droidify.network.Downloader
-import com.looker.droidify.network.NetworkResponse
-import com.looker.droidify.network.ProgressListener
-import com.looker.droidify.network.header.HeadersBuilder
-import com.looker.droidify.network.validation.FileValidator
-import com.looker.droidify.sync.common.assets
+import com.looker.starrystore.network.Downloader
+import com.looker.starrystore.network.NetworkResponse
+import com.looker.starrystore.network.ProgressListener
+import com.looker.starrystore.network.header.HeadersBuilder
+import com.looker.starrystore.network.validation.FileValidator
+import com.looker.starrystore.sync.common.assets
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.withContext

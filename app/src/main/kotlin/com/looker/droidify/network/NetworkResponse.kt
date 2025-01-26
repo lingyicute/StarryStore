@@ -1,6 +1,6 @@
-package com.looker.droidify.network
+package com.looker.starrystore.network
 
-import com.looker.droidify.network.validation.ValidationException
+import com.looker.starrystore.network.validation.ValidationException
 import java.util.Date
 
 sealed interface NetworkResponse {

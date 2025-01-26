@@ -1,14 +1,14 @@
-package com.looker.droidify.ui.repository
+package com.looker.starrystore.ui.repository
 
 import android.content.Context
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.looker.droidify.utility.common.extension.asStateFlow
-import com.looker.droidify.model.Repository
-import com.looker.droidify.database.Database
-import com.looker.droidify.service.Connection
-import com.looker.droidify.service.SyncService
+import com.looker.starrystore.utility.common.extension.asStateFlow
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.service.Connection
+import com.looker.starrystore.service.SyncService
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.first

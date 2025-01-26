@@ -1,9 +1,9 @@
-package com.looker.droidify.utility.serialization
+package com.looker.starrystore.utility.serialization
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.core.JsonParser
 import com.looker.core.common.extension.forEachKey
-import com.looker.droidify.model.ProductItem
+import com.looker.starrystore.model.ProductItem
 
 fun ProductItem.serialize(generator: JsonGenerator) {
     generator.writeNumberField("serialVersion", 1)

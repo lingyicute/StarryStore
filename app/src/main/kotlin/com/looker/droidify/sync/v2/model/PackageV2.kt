@@ -1,4 +1,4 @@
-package com.looker.droidify.sync.v2.model
+package com.looker.starrystore.sync.v2.model
 
 /*
 * PackageV2, MetadataV2, VersionV2, ManifestV2, UsesSdkV2, PermissionV2, FeatureV2, SignerV2

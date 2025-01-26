@@ -1,9 +1,9 @@
-package com.looker.droidify.utility.serialization
+package com.looker.starrystore.utility.serialization
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.core.JsonParser
 import com.looker.core.common.extension.forEachKey
-import com.looker.droidify.model.ProductPreference
+import com.looker.starrystore.model.ProductPreference
 
 fun ProductPreference.serialize(generator: JsonGenerator) {
     generator.writeBooleanField("ignoreUpdates", ignoreUpdates)

@@ -1,4 +1,4 @@
-package com.looker.droidify.domain.model
+package com.looker.starrystore.domain.model
 
 import java.security.MessageDigest
 import java.security.cert.Certificate

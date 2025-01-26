@@ -1,12 +1,12 @@
-package com.looker.droidify.utility.common.extension
+package com.looker.starrystore.utility.common.extension
 
 import android.content.Intent
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.content.pm.Signature
-import com.looker.droidify.domain.model.hex
-import com.looker.droidify.utility.common.SdkCheck
+import com.looker.starrystore.domain.model.hex
+import com.looker.starrystore.utility.common.SdkCheck
 import java.security.MessageDigest
 
 val PackageInfo.singleSignature: Signature?

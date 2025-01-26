@@ -1,7 +1,7 @@
-package com.looker.droidify.di
+package com.looker.starrystore.di
 
-import com.looker.droidify.network.Downloader
-import com.looker.droidify.network.KtorDownloader
+import com.looker.starrystore.network.Downloader
+import com.looker.starrystore.network.KtorDownloader
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,7 +1,7 @@
-package com.looker.droidify.utility.common
+package com.looker.starrystore.utility.common
 
 import android.content.Intent
-import com.looker.droidify.utility.common.extension.get
+import com.looker.starrystore.utility.common.extension.get
 
 private const val PERSONAL_HOST = "droidify.eu.org"
 

@@ -1,12 +1,12 @@
-package com.looker.droidify.installer.installers
+package com.looker.starrystore.installer.installers
 
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
-import com.looker.droidify.utility.common.extension.getLauncherActivities
-import com.looker.droidify.utility.common.extension.getPackageInfoCompat
-import com.looker.droidify.utility.common.extension.intent
+import com.looker.starrystore.utility.common.extension.getLauncherActivities
+import com.looker.starrystore.utility.common.extension.getPackageInfoCompat
+import com.looker.starrystore.utility.common.extension.intent
 import kotlinx.coroutines.suspendCancellableCoroutine
 import rikka.shizuku.ShizukuProvider
 import kotlin.coroutines.resume

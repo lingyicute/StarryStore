@@ -1,11 +1,11 @@
-package com.looker.droidify.datastore
+package com.looker.starrystore.datastore
 
 import android.net.Uri
-import com.looker.droidify.datastore.model.AutoSync
-import com.looker.droidify.datastore.model.InstallerType
-import com.looker.droidify.datastore.model.ProxyType
-import com.looker.droidify.datastore.model.SortOrder
-import com.looker.droidify.datastore.model.Theme
+import com.looker.starrystore.datastore.model.AutoSync
+import com.looker.starrystore.datastore.model.InstallerType
+import com.looker.starrystore.datastore.model.ProxyType
+import com.looker.starrystore.datastore.model.SortOrder
+import com.looker.starrystore.datastore.model.Theme
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map

@@ -1,20 +1,20 @@
-package com.looker.droidify.index
+package com.looker.starrystore.index
 
 import android.content.res.Resources
 import androidx.core.os.ConfigurationCompat.getLocales
 import androidx.core.os.LocaleListCompat
 import com.fasterxml.jackson.core.JsonParser
 import com.fasterxml.jackson.core.JsonToken
-import com.looker.droidify.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.SdkCheck
 import com.looker.core.common.extension.Json
 import com.looker.core.common.extension.collectDistinctNotEmptyStrings
 import com.looker.core.common.extension.collectNotNull
 import com.looker.core.common.extension.forEach
 import com.looker.core.common.extension.forEachKey
 import com.looker.core.common.extension.illegal
-import com.looker.droidify.utility.common.nullIfEmpty
-import com.looker.droidify.model.Product
-import com.looker.droidify.model.Release
+import com.looker.starrystore.utility.common.nullIfEmpty
+import com.looker.starrystore.model.Product
+import com.looker.starrystore.model.Release
 import java.io.InputStream
 
 object IndexV1Parser {

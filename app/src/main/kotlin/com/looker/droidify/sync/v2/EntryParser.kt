@@ -1,11 +1,11 @@
-package com.looker.droidify.sync.v2
+package com.looker.starrystore.sync.v2
 
-import com.looker.droidify.domain.model.Fingerprint
-import com.looker.droidify.domain.model.Repo
-import com.looker.droidify.sync.IndexValidator
-import com.looker.droidify.sync.Parser
-import com.looker.droidify.sync.utils.toJarFile
-import com.looker.droidify.sync.v2.model.Entry
+import com.looker.starrystore.domain.model.Fingerprint
+import com.looker.starrystore.domain.model.Repo
+import com.looker.starrystore.sync.IndexValidator
+import com.looker.starrystore.sync.Parser
+import com.looker.starrystore.sync.utils.toJarFile
+import com.looker.starrystore.sync.v2.model.Entry
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json

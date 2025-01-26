@@ -1,12 +1,12 @@
-package com.looker.droidify.utility.extension
+package com.looker.starrystore.utility.extension
 
-import com.looker.droidify.model.InstalledItem
-import com.looker.droidify.model.Product
-import com.looker.droidify.model.Repository
-import com.looker.droidify.model.findSuggested
-import com.looker.droidify.service.Connection
-import com.looker.droidify.service.DownloadService
-import com.looker.droidify.utility.extension.android.Android
+import com.looker.starrystore.model.InstalledItem
+import com.looker.starrystore.model.Product
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.model.findSuggested
+import com.looker.starrystore.service.Connection
+import com.looker.starrystore.service.DownloadService
+import com.looker.starrystore.utility.extension.android.Android
 
 fun Connection<DownloadService.Binder, DownloadService>.startUpdate(
     packageName: String,

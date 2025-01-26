@@ -1,4 +1,4 @@
-package com.looker.droidify.sync.v2.model
+package com.looker.starrystore.sync.v2.model
 /*
 * RepoV2, AntiFeatureV2, CategoryV2, MirrorV2 are licensed under the GPL 3.0 to FDroid Organization.
 * */

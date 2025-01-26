@@ -1,20 +1,20 @@
-package com.looker.droidify.database
+package com.looker.starrystore.database
 
 import android.content.Context
 import android.net.Uri
 import com.fasterxml.jackson.core.JsonToken
-import com.looker.droidify.utility.common.Exporter
+import com.looker.starrystore.utility.common.Exporter
 import com.looker.core.common.extension.Json
 import com.looker.core.common.extension.forEach
 import com.looker.core.common.extension.forEachKey
 import com.looker.core.common.extension.parseDictionary
 import com.looker.core.common.extension.writeArray
 import com.looker.core.common.extension.writeDictionary
-import com.looker.droidify.di.ApplicationScope
-import com.looker.droidify.di.IoDispatcher
-import com.looker.droidify.model.Repository
-import com.looker.droidify.utility.serialization.repository
-import com.looker.droidify.utility.serialization.serialize
+import com.looker.starrystore.di.ApplicationScope
+import com.looker.starrystore.di.IoDispatcher
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.utility.serialization.repository
+import com.looker.starrystore.utility.serialization.serialize
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton

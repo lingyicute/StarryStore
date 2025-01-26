@@ -1,18 +1,18 @@
-package com.looker.droidify.service
+package com.looker.starrystore.service
 
 import android.content.Context
 import androidx.annotation.StringRes
-import com.looker.droidify.utility.common.extension.calculateHash
-import com.looker.droidify.utility.common.extension.getPackageArchiveInfoCompat
-import com.looker.droidify.utility.common.extension.singleSignature
-import com.looker.droidify.utility.common.extension.versionCodeCompat
-import com.looker.droidify.network.validation.FileValidator
-import com.looker.droidify.utility.common.signature.Hash
-import com.looker.droidify.network.validation.invalid
-import com.looker.droidify.utility.common.signature.verifyHash
-import com.looker.droidify.model.Release
+import com.looker.starrystore.utility.common.extension.calculateHash
+import com.looker.starrystore.utility.common.extension.getPackageArchiveInfoCompat
+import com.looker.starrystore.utility.common.extension.singleSignature
+import com.looker.starrystore.utility.common.extension.versionCodeCompat
+import com.looker.starrystore.network.validation.FileValidator
+import com.looker.starrystore.utility.common.signature.Hash
+import com.looker.starrystore.network.validation.invalid
+import com.looker.starrystore.utility.common.signature.verifyHash
+import com.looker.starrystore.model.Release
 import java.io.File
-import com.looker.droidify.R.string as strings
+import com.looker.starrystore.R.string as strings
 
 class ReleaseFileValidator(
     private val context: Context,

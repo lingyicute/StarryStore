@@ -1,11 +1,11 @@
-package com.looker.droidify.datastore
+package com.looker.starrystore.datastore
 
 import androidx.datastore.core.Serializer
-import com.looker.droidify.datastore.model.AutoSync
-import com.looker.droidify.datastore.model.InstallerType
-import com.looker.droidify.datastore.model.ProxyPreference
-import com.looker.droidify.datastore.model.SortOrder
-import com.looker.droidify.datastore.model.Theme
+import com.looker.starrystore.datastore.model.AutoSync
+import com.looker.starrystore.datastore.model.InstallerType
+import com.looker.starrystore.datastore.model.ProxyPreference
+import com.looker.starrystore.datastore.model.SortOrder
+import com.looker.starrystore.datastore.model.Theme
 import java.io.IOException
 import java.io.InputStream
 import java.io.OutputStream

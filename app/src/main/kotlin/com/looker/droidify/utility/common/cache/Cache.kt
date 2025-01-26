@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common.cache
+package com.looker.starrystore.utility.common.cache
 
 import android.content.ContentProvider
 import android.content.ContentValues
@@ -11,8 +11,8 @@ import android.os.Build
 import android.os.ParcelFileDescriptor
 import android.provider.OpenableColumns
 import android.system.Os
-import com.looker.droidify.utility.common.extension.getPackageInfoCompat
-import com.looker.droidify.utility.common.sdkAbove
+import com.looker.starrystore.utility.common.extension.getPackageInfoCompat
+import com.looker.starrystore.utility.common.sdkAbove
 import java.io.File
 import java.util.UUID
 import kotlin.concurrent.thread

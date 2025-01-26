@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.settings
+package com.looker.starrystore.ui.settings
 
 import android.content.Context
 import android.net.Uri
@@ -7,22 +7,22 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.looker.droidify.datastore.Settings
-import com.looker.droidify.datastore.SettingsRepository
-import com.looker.droidify.datastore.get
-import com.looker.droidify.datastore.model.AutoSync
-import com.looker.droidify.datastore.model.InstallerType
-import com.looker.droidify.datastore.model.InstallerType.*
-import com.looker.droidify.datastore.model.ProxyType
-import com.looker.droidify.datastore.model.Theme
-import com.looker.droidify.database.Database
-import com.looker.droidify.database.RepositoryExporter
-import com.looker.droidify.work.CleanUpWorker
-import com.looker.droidify.installer.installers.isMagiskGranted
-import com.looker.droidify.installer.installers.isShizukuAlive
-import com.looker.droidify.installer.installers.isShizukuGranted
-import com.looker.droidify.installer.installers.isShizukuInstalled
-import com.looker.droidify.installer.installers.requestPermissionListener
+import com.looker.starrystore.datastore.Settings
+import com.looker.starrystore.datastore.SettingsRepository
+import com.looker.starrystore.datastore.get
+import com.looker.starrystore.datastore.model.AutoSync
+import com.looker.starrystore.datastore.model.InstallerType
+import com.looker.starrystore.datastore.model.InstallerType.*
+import com.looker.starrystore.datastore.model.ProxyType
+import com.looker.starrystore.datastore.model.Theme
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.database.RepositoryExporter
+import com.looker.starrystore.work.CleanUpWorker
+import com.looker.starrystore.installer.installers.isMagiskGranted
+import com.looker.starrystore.installer.installers.isShizukuAlive
+import com.looker.starrystore.installer.installers.isShizukuGranted
+import com.looker.starrystore.installer.installers.isShizukuInstalled
+import com.looker.starrystore.installer.installers.requestPermissionListener
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableSharedFlow
@@ -35,7 +35,7 @@ import kotlinx.coroutines.launch
 import java.util.Locale
 import javax.inject.Inject
 import kotlin.time.Duration
-import com.looker.droidify.R
+import com.looker.starrystore.R
 
 @HiltViewModel
 class SettingsViewModel

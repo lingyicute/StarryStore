@@ -1,14 +1,14 @@
-package com.looker.droidify.installer.installers.shizuku
+package com.looker.starrystore.installer.installers.shizuku
 
 import android.content.Context
-import com.looker.droidify.utility.common.SdkCheck
-import com.looker.droidify.utility.common.cache.Cache
-import com.looker.droidify.utility.common.extension.size
-import com.looker.droidify.domain.model.PackageName
-import com.looker.droidify.installer.installers.Installer
-import com.looker.droidify.installer.installers.uninstallPackage
-import com.looker.droidify.installer.model.InstallItem
-import com.looker.droidify.installer.model.InstallState
+import com.looker.starrystore.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.cache.Cache
+import com.looker.starrystore.utility.common.extension.size
+import com.looker.starrystore.domain.model.PackageName
+import com.looker.starrystore.installer.installers.Installer
+import com.looker.starrystore.installer.installers.uninstallPackage
+import com.looker.starrystore.installer.model.InstallItem
+import com.looker.starrystore.installer.model.InstallState
 import kotlinx.coroutines.suspendCancellableCoroutine
 import java.io.BufferedReader
 import java.io.InputStream

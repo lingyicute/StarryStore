@@ -1,14 +1,14 @@
-package com.looker.droidify.content
+package com.looker.starrystore.content
 
 import android.content.Context
 import android.content.SharedPreferences
 import com.looker.core.common.extension.Json
 import com.looker.core.common.extension.parseDictionary
 import com.looker.core.common.extension.writeDictionary
-import com.looker.droidify.model.ProductPreference
-import com.looker.droidify.database.Database
-import com.looker.droidify.utility.serialization.productPreference
-import com.looker.droidify.utility.serialization.serialize
+import com.looker.starrystore.model.ProductPreference
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.utility.serialization.productPreference
+import com.looker.starrystore.utility.serialization.serialize
 import java.io.ByteArrayOutputStream
 import java.nio.charset.Charset
 import kotlinx.coroutines.CoroutineScope
