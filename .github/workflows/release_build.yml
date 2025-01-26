@@ -3,6 +3,10 @@ name: Build Release APK
 on:
   workflow_dispatch:
   push:
+    paths-ignore:
+      - '**.md'
+      - '**.yml'
+      - '**.xml'
 
 concurrency:
   group: "release-build"
