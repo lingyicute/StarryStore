@@ -1,6 +1,6 @@
 @file:Suppress("PackageDirectoryMismatch")
 
-package com.looker.droidify.utility.extension.android
+package com.looker.starrystore.utility.extension.android
 
 import android.os.Build
 

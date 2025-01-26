@@ -1,7 +1,7 @@
-package com.looker.droidify.datastore.migration
+package com.looker.starrystore.datastore.migration
 
-import com.looker.droidify.datastore.PreferenceSettingsRepository.PreferencesKeys.setting
-import com.looker.droidify.datastore.Settings
+import com.looker.starrystore.datastore.PreferenceSettingsRepository.PreferencesKeys.setting
+import com.looker.starrystore.datastore.Settings
 import kotlinx.coroutines.flow.first
 
 class ProtoToPreferenceMigration(

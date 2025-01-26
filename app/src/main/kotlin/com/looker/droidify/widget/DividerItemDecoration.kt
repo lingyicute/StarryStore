@@ -1,12 +1,12 @@
-package com.looker.droidify.widget
+package com.looker.starrystore.widget
 
 import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Rect
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
-import com.looker.droidify.utility.common.extension.divider
-import com.looker.droidify.R
+import com.looker.starrystore.utility.common.extension.divider
+import com.looker.starrystore.R
 import kotlin.math.roundToInt
 
 fun RecyclerView.addDivider(

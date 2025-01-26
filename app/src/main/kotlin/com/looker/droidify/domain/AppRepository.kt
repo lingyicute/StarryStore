@@ -1,10 +1,10 @@
-package com.looker.droidify.domain
+package com.looker.starrystore.domain
 
-import com.looker.droidify.domain.model.App
-import com.looker.droidify.domain.model.AppMinimal
-import com.looker.droidify.domain.model.Author
-import com.looker.droidify.domain.model.Package
-import com.looker.droidify.domain.model.PackageName
+import com.looker.starrystore.domain.model.App
+import com.looker.starrystore.domain.model.AppMinimal
+import com.looker.starrystore.domain.model.Author
+import com.looker.starrystore.domain.model.Package
+import com.looker.starrystore.domain.model.PackageName
 import kotlinx.coroutines.flow.Flow
 
 interface AppRepository {

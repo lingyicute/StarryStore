@@ -1,9 +1,9 @@
-package com.looker.droidify.datastore.exporter
+package com.looker.starrystore.datastore.exporter
 
 import android.content.Context
 import android.net.Uri
-import com.looker.droidify.utility.common.Exporter
-import com.looker.droidify.datastore.Settings
+import com.looker.starrystore.utility.common.Exporter
+import com.looker.starrystore.datastore.Settings
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.cancel

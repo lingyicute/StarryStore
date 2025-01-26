@@ -1,4 +1,4 @@
-package com.looker.droidify.sync.common
+package com.looker.starrystore.sync.common
 
 import kotlin.math.pow
 import kotlin.math.sqrt

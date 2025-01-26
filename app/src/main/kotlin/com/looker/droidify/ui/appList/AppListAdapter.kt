@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.appList
+package com.looker.starrystore.ui.appList
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -12,19 +12,19 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.google.android.material.imageview.ShapeableImageView
 import com.google.android.material.progressindicator.CircularProgressIndicator
-import com.looker.droidify.R
-import com.looker.droidify.database.Database
-import com.looker.droidify.model.ProductItem
-import com.looker.droidify.model.Repository
-import com.looker.droidify.utility.common.extension.authentication
-import com.looker.droidify.utility.common.extension.corneredBackground
-import com.looker.droidify.utility.common.extension.dp
-import com.looker.droidify.utility.common.extension.getColorFromAttr
-import com.looker.droidify.utility.common.extension.inflate
-import com.looker.droidify.utility.common.extension.setTextSizeScaled
-import com.looker.droidify.utility.common.nullIfEmpty
-import com.looker.droidify.utility.extension.resources.TypefaceExtra
-import com.looker.droidify.widget.CursorRecyclerAdapter
+import com.looker.starrystore.R
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.model.ProductItem
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.utility.common.extension.authentication
+import com.looker.starrystore.utility.common.extension.corneredBackground
+import com.looker.starrystore.utility.common.extension.dp
+import com.looker.starrystore.utility.common.extension.getColorFromAttr
+import com.looker.starrystore.utility.common.extension.inflate
+import com.looker.starrystore.utility.common.extension.setTextSizeScaled
+import com.looker.starrystore.utility.common.nullIfEmpty
+import com.looker.starrystore.utility.extension.resources.TypefaceExtra
+import com.looker.starrystore.widget.CursorRecyclerAdapter
 import com.google.android.material.R as MaterialR
 
 class AppListAdapter(

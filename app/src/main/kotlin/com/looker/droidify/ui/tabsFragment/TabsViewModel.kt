@@ -1,15 +1,15 @@
-package com.looker.droidify.ui.tabsFragment
+package com.looker.starrystore.ui.tabsFragment
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.looker.droidify.utility.common.extension.asStateFlow
-import com.looker.droidify.datastore.SettingsRepository
-import com.looker.droidify.datastore.get
-import com.looker.droidify.datastore.model.SortOrder
-import com.looker.droidify.model.ProductItem
-import com.looker.droidify.database.Database
-import com.looker.droidify.ui.tabsFragment.TabsFragment.BackAction
+import com.looker.starrystore.utility.common.extension.asStateFlow
+import com.looker.starrystore.datastore.SettingsRepository
+import com.looker.starrystore.datastore.get
+import com.looker.starrystore.datastore.model.SortOrder
+import com.looker.starrystore.model.ProductItem
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.ui.tabsFragment.TabsFragment.BackAction
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import javax.inject.Inject

@@ -1,7 +1,7 @@
-package com.looker.droidify.sync
+package com.looker.starrystore.sync
 
-import com.looker.droidify.domain.model.Fingerprint
-import com.looker.droidify.domain.model.Repo
+import com.looker.starrystore.domain.model.Fingerprint
+import com.looker.starrystore.domain.model.Repo
 import java.io.File
 
 interface Parser<out T> {

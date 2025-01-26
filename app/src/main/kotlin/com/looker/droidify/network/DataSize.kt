@@ -1,4 +1,4 @@
-package com.looker.droidify.network
+package com.looker.starrystore.network
 
 import java.util.Locale
 

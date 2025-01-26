@@ -1,8 +1,8 @@
-package com.looker.droidify.model
+package com.looker.starrystore.model
 
-import com.looker.droidify.domain.model.App
-import com.looker.droidify.domain.model.Donation
-import com.looker.droidify.domain.model.Screenshots
+import com.looker.starrystore.domain.model.App
+import com.looker.starrystore.domain.model.Donation
+import com.looker.starrystore.domain.model.Screenshots
 
 data class Product(
     var repositoryId: Long,

@@ -1,7 +1,7 @@
-package com.looker.droidify.utility.common.signature
+package com.looker.starrystore.utility.common.signature
 
-import com.looker.droidify.domain.model.hex
-import com.looker.droidify.utility.common.extension.exceptCancellation
+import com.looker.starrystore.domain.model.hex
+import com.looker.starrystore.utility.common.extension.exceptCancellation
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ensureActive
 import kotlinx.coroutines.withContext

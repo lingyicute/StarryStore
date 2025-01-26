@@ -1,16 +1,16 @@
-package com.looker.droidify.datastore.extension
+package com.looker.starrystore.datastore.extension
 
 import android.content.Context
 import android.content.res.Configuration
-import com.looker.droidify.R
-import com.looker.droidify.R.string as stringRes
-import com.looker.droidify.R.style as styleRes
-import com.looker.droidify.utility.common.SdkCheck
-import com.looker.droidify.datastore.model.AutoSync
-import com.looker.droidify.datastore.model.InstallerType
-import com.looker.droidify.datastore.model.ProxyType
-import com.looker.droidify.datastore.model.SortOrder
-import com.looker.droidify.datastore.model.Theme
+import com.looker.starrystore.R
+import com.looker.starrystore.R.string as stringRes
+import com.looker.starrystore.R.style as styleRes
+import com.looker.starrystore.utility.common.SdkCheck
+import com.looker.starrystore.datastore.model.AutoSync
+import com.looker.starrystore.datastore.model.InstallerType
+import com.looker.starrystore.datastore.model.ProxyType
+import com.looker.starrystore.datastore.model.SortOrder
+import com.looker.starrystore.datastore.model.Theme
 import kotlin.time.Duration
 
 fun Configuration.getThemeRes(theme: Theme, dynamicTheme: Boolean) = when (theme) {

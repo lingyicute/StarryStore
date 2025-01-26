@@ -1,4 +1,4 @@
-package com.looker.droidify.model
+package com.looker.starrystore.model
 
 import java.net.URL
 

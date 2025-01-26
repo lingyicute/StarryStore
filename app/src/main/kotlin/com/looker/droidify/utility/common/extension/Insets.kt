@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common.extension
+package com.looker.starrystore.utility.common.extension
 
 import android.view.View
 import android.view.ViewGroup
@@ -10,7 +10,7 @@ import androidx.core.view.updateLayoutParams
 import androidx.core.view.updatePadding
 import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
-import com.looker.droidify.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.SdkCheck
 
 fun View.systemBarsMargin(
     persistentPadding: Int,

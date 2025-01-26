@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.appDetail
+package com.looker.starrystore.ui.appDetail
 
 import android.content.Context
 import android.graphics.drawable.Drawable
@@ -12,19 +12,19 @@ import coil.load
 import coil.size.Dimension
 import coil.size.Scale
 import com.google.android.material.imageview.ShapeableImageView
-import com.looker.droidify.utility.common.extension.aspectRatio
-import com.looker.droidify.utility.common.extension.authentication
-import com.looker.droidify.utility.common.extension.camera
-import com.looker.droidify.utility.common.extension.dp
-import com.looker.droidify.utility.common.extension.dpToPx
-import com.looker.droidify.utility.common.extension.getColorFromAttr
-import com.looker.droidify.utility.common.extension.selectableBackground
-import com.looker.droidify.graphics.PaddingDrawable
-import com.looker.droidify.model.Product
-import com.looker.droidify.model.Repository
-import com.looker.droidify.widget.StableRecyclerAdapter
+import com.looker.starrystore.utility.common.extension.aspectRatio
+import com.looker.starrystore.utility.common.extension.authentication
+import com.looker.starrystore.utility.common.extension.camera
+import com.looker.starrystore.utility.common.extension.dp
+import com.looker.starrystore.utility.common.extension.dpToPx
+import com.looker.starrystore.utility.common.extension.getColorFromAttr
+import com.looker.starrystore.utility.common.extension.selectableBackground
+import com.looker.starrystore.graphics.PaddingDrawable
+import com.looker.starrystore.model.Product
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.widget.StableRecyclerAdapter
 import com.google.android.material.R as MaterialR
-import com.looker.droidify.R.dimen as dimenRes
+import com.looker.starrystore.R.dimen as dimenRes
 
 class ScreenshotsAdapter(private val onClick: (Product.Screenshot, ImageView) -> Unit) :
     StableRecyclerAdapter<ScreenshotsAdapter.ViewType, RecyclerView.ViewHolder>() {

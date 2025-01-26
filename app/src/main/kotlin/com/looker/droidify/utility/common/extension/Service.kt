@@ -1,8 +1,8 @@
-package com.looker.droidify.utility.common.extension
+package com.looker.starrystore.utility.common.extension
 
 import android.app.Service
 import android.content.Intent
-import com.looker.droidify.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.SdkCheck
 
 fun Service.startServiceCompat() {
     val intent = Intent(this, this::class.java)

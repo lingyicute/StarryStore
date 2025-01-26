@@ -1,7 +1,7 @@
-package com.looker.droidify.network
+package com.looker.starrystore.network
 
-import com.looker.droidify.network.header.HeadersBuilder
-import com.looker.droidify.network.validation.FileValidator
+import com.looker.starrystore.network.header.HeadersBuilder
+import com.looker.starrystore.network.validation.FileValidator
 import java.io.File
 import java.net.Proxy
 

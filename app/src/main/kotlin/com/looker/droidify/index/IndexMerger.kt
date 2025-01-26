@@ -1,17 +1,17 @@
-package com.looker.droidify.index
+package com.looker.starrystore.index
 
 import android.content.ContentValues
 import android.database.sqlite.SQLiteDatabase
 import com.fasterxml.jackson.core.JsonToken
 import com.looker.core.common.extension.Json
-import com.looker.droidify.utility.common.extension.asSequence
+import com.looker.starrystore.utility.common.extension.asSequence
 import com.looker.core.common.extension.collectNotNull
 import com.looker.core.common.extension.writeDictionary
-import com.looker.droidify.model.Product
-import com.looker.droidify.model.Release
-import com.looker.droidify.utility.serialization.product
-import com.looker.droidify.utility.serialization.release
-import com.looker.droidify.utility.serialization.serialize
+import com.looker.starrystore.model.Product
+import com.looker.starrystore.model.Release
+import com.looker.starrystore.utility.serialization.product
+import com.looker.starrystore.utility.serialization.release
+import com.looker.starrystore.utility.serialization.serialize
 import java.io.ByteArrayOutputStream
 import java.io.Closeable
 import java.io.File

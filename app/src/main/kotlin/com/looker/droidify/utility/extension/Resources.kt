@@ -1,6 +1,6 @@
 @file:Suppress("PackageDirectoryMismatch")
 
-package com.looker.droidify.utility.extension.resources
+package com.looker.starrystore.utility.extension.resources
 
 import android.content.res.Resources
 import android.graphics.Typeface

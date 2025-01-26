@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.settings
+package com.looker.starrystore.ui.settings
 
 import android.content.Context
 import android.content.Intent
@@ -23,27 +23,27 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
-import com.looker.droidify.utility.common.SdkCheck
-import com.looker.droidify.utility.common.extension.getColorFromAttr
-import com.looker.droidify.utility.common.extension.homeAsUp
-import com.looker.droidify.utility.common.extension.systemBarsPadding
-import com.looker.droidify.utility.common.extension.updateAsMutable
-import com.looker.droidify.utility.common.isIgnoreBatteryEnabled
-import com.looker.droidify.utility.common.requestBatteryFreedom
-import com.looker.droidify.datastore.Settings
-import com.looker.droidify.datastore.extension.autoSyncName
-import com.looker.droidify.datastore.extension.installerName
-import com.looker.droidify.datastore.extension.proxyName
-import com.looker.droidify.datastore.extension.themeName
-import com.looker.droidify.datastore.extension.toTime
-import com.looker.droidify.datastore.model.AutoSync
-import com.looker.droidify.datastore.model.InstallerType
-import com.looker.droidify.datastore.model.ProxyType
-import com.looker.droidify.datastore.model.Theme
-import com.looker.droidify.BuildConfig
-import com.looker.droidify.databinding.EnumTypeBinding
-import com.looker.droidify.databinding.SettingsPageBinding
-import com.looker.droidify.databinding.SwitchTypeBinding
+import com.looker.starrystore.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.extension.getColorFromAttr
+import com.looker.starrystore.utility.common.extension.homeAsUp
+import com.looker.starrystore.utility.common.extension.systemBarsPadding
+import com.looker.starrystore.utility.common.extension.updateAsMutable
+import com.looker.starrystore.utility.common.isIgnoreBatteryEnabled
+import com.looker.starrystore.utility.common.requestBatteryFreedom
+import com.looker.starrystore.datastore.Settings
+import com.looker.starrystore.datastore.extension.autoSyncName
+import com.looker.starrystore.datastore.extension.installerName
+import com.looker.starrystore.datastore.extension.proxyName
+import com.looker.starrystore.datastore.extension.themeName
+import com.looker.starrystore.datastore.extension.toTime
+import com.looker.starrystore.datastore.model.AutoSync
+import com.looker.starrystore.datastore.model.InstallerType
+import com.looker.starrystore.datastore.model.ProxyType
+import com.looker.starrystore.datastore.model.Theme
+import com.looker.starrystore.BuildConfig
+import com.looker.starrystore.databinding.EnumTypeBinding
+import com.looker.starrystore.databinding.SettingsPageBinding
+import com.looker.starrystore.databinding.SwitchTypeBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
@@ -53,7 +53,7 @@ import kotlin.time.Duration
 import kotlin.time.Duration.Companion.days
 import kotlin.time.Duration.Companion.hours
 import com.google.android.material.R as MaterialR
-import com.looker.droidify.R
+import com.looker.starrystore.R
 
 @AndroidEntryPoint
 class SettingsFragment : Fragment() {

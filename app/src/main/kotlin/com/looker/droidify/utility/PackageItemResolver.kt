@@ -1,4 +1,4 @@
-package com.looker.droidify.utility
+package com.looker.starrystore.utility
 
 import android.Manifest
 import android.content.Context
@@ -6,7 +6,7 @@ import android.content.pm.PackageItemInfo
 import android.content.pm.PermissionInfo
 import android.content.res.Resources
 import android.os.Build
-import com.looker.droidify.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.SdkCheck
 import java.util.Locale
 
 object PackageItemResolver {

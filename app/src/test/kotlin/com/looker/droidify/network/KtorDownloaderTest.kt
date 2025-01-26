@@ -1,4 +1,4 @@
-package com.looker.droidify.network
+package com.looker.starrystore.network
 
 import io.ktor.client.engine.mock.MockEngine
 import io.ktor.client.engine.mock.respond
@@ -108,7 +108,7 @@ class KtorDownloaderTest {
                 "https://authenticate.com",
                 target = file,
                 headers = {
-                    com.looker.droidify.network.header.HeadersBuilder.authentication(
+                    com.looker.starrystore.network.header.HeadersBuilder.authentication(
                         "iamlooker",
                         "sneakypeaky"
                     )

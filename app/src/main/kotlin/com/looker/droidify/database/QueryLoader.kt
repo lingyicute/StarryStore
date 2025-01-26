@@ -1,4 +1,4 @@
-package com.looker.droidify.database
+package com.looker.starrystore.database
 
 import android.content.Context
 import android.database.Cursor

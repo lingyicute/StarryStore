@@ -1,8 +1,8 @@
-package com.looker.droidify.model
+package com.looker.starrystore.model
 
 import android.os.Parcelable
 import android.view.View
-import com.looker.droidify.utility.common.extension.dpi
+import com.looker.starrystore.utility.common.extension.dpi
 import kotlinx.parcelize.Parcelize
 
 data class ProductItem(

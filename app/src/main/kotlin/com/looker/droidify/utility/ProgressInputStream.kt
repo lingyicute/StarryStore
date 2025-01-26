@@ -1,4 +1,4 @@
-package com.looker.droidify.utility
+package com.looker.starrystore.utility
 
 import java.io.InputStream
 

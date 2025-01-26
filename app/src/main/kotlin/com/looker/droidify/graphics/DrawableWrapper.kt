@@ -1,4 +1,4 @@
-package com.looker.droidify.graphics
+package com.looker.starrystore.graphics
 
 import android.graphics.Canvas
 import android.graphics.ColorFilter

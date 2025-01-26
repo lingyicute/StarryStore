@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common.extension
+package com.looker.starrystore.utility.common.extension
 
 inline fun <K, E> Map<K, E>.updateAsMutable(block: MutableMap<K, E>.() -> Unit): Map<K, E> {
     return toMutableMap().apply(block)

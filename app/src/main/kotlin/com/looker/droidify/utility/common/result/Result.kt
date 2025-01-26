@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common.result
+package com.looker.starrystore.utility.common.result
 
 sealed interface Result<out T> {
     data class Success<T>(val data: T) : Result<T>

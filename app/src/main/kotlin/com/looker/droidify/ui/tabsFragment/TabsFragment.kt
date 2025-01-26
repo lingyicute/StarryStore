@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.tabsFragment
+package com.looker.starrystore.ui.tabsFragment
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -28,32 +28,32 @@ import com.google.android.material.elevation.SurfaceColors
 import com.google.android.material.shape.MaterialShapeDrawable
 import com.google.android.material.shape.ShapeAppearanceModel
 import com.google.android.material.tabs.TabLayoutMediator
-import com.looker.droidify.utility.common.device.Huawei
-import com.looker.droidify.utility.common.extension.dp
-import com.looker.droidify.utility.common.extension.getMutatedIcon
-import com.looker.droidify.utility.common.extension.selectableBackground
-import com.looker.droidify.utility.common.extension.systemBarsPadding
-import com.looker.droidify.utility.common.sdkAbove
-import com.looker.droidify.datastore.extension.sortOrderName
-import com.looker.droidify.datastore.model.SortOrder
-import com.looker.droidify.R
-import com.looker.droidify.databinding.TabsToolbarBinding
-import com.looker.droidify.model.ProductItem
-import com.looker.droidify.service.Connection
-import com.looker.droidify.service.SyncService
-import com.looker.droidify.ui.ScreenFragment
-import com.looker.droidify.ui.appList.AppListFragment
-import com.looker.droidify.utility.extension.resources.sizeScaled
-import com.looker.droidify.utility.extension.screenActivity
-import com.looker.droidify.widget.DividerConfiguration
-import com.looker.droidify.widget.FocusSearchView
-import com.looker.droidify.widget.StableRecyclerAdapter
-import com.looker.droidify.widget.addDivider
+import com.looker.starrystore.utility.common.device.Huawei
+import com.looker.starrystore.utility.common.extension.dp
+import com.looker.starrystore.utility.common.extension.getMutatedIcon
+import com.looker.starrystore.utility.common.extension.selectableBackground
+import com.looker.starrystore.utility.common.extension.systemBarsPadding
+import com.looker.starrystore.utility.common.sdkAbove
+import com.looker.starrystore.datastore.extension.sortOrderName
+import com.looker.starrystore.datastore.model.SortOrder
+import com.looker.starrystore.R
+import com.looker.starrystore.databinding.TabsToolbarBinding
+import com.looker.starrystore.model.ProductItem
+import com.looker.starrystore.service.Connection
+import com.looker.starrystore.service.SyncService
+import com.looker.starrystore.ui.ScreenFragment
+import com.looker.starrystore.ui.appList.AppListFragment
+import com.looker.starrystore.utility.extension.resources.sizeScaled
+import com.looker.starrystore.utility.extension.screenActivity
+import com.looker.starrystore.widget.DividerConfiguration
+import com.looker.starrystore.widget.FocusSearchView
+import com.looker.starrystore.widget.StableRecyclerAdapter
+import com.looker.starrystore.widget.addDivider
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import kotlin.math.abs
 import kotlin.math.roundToInt
-import com.looker.droidify.R.string as stringRes
+import com.looker.starrystore.R.string as stringRes
 
 @AndroidEntryPoint
 class TabsFragment : ScreenFragment() {

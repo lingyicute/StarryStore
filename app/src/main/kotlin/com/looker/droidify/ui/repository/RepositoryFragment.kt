@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.repository
+package com.looker.starrystore.ui.repository
 
 import android.os.Bundle
 import android.text.SpannableStringBuilder
@@ -15,21 +15,21 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.looker.droidify.utility.common.extension.getColorFromAttr
-import com.looker.droidify.utility.common.extension.systemBarsPadding
-import com.looker.droidify.model.Repository
-import com.looker.droidify.databinding.RepositoryPageBinding
-import com.looker.droidify.ui.Message
-import com.looker.droidify.ui.MessageDialog
-import com.looker.droidify.ui.ScreenFragment
-import com.looker.droidify.utility.extension.screenActivity
+import com.looker.starrystore.utility.common.extension.getColorFromAttr
+import com.looker.starrystore.utility.common.extension.systemBarsPadding
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.databinding.RepositoryPageBinding
+import com.looker.starrystore.ui.Message
+import com.looker.starrystore.ui.MessageDialog
+import com.looker.starrystore.ui.ScreenFragment
+import com.looker.starrystore.utility.extension.screenActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import java.util.Date
 import java.util.Locale
 import com.google.android.material.R as MaterialR
-import com.looker.droidify.R.string as stringRes
+import com.looker.starrystore.R.string as stringRes
 
 @AndroidEntryPoint
 class RepositoryFragment() : ScreenFragment() {

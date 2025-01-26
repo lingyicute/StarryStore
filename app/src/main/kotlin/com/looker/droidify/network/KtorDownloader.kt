@@ -1,11 +1,11 @@
-package com.looker.droidify.network
+package com.looker.starrystore.network
 
-import com.looker.droidify.BuildConfig
-import com.looker.droidify.network.header.HeadersBuilder
-import com.looker.droidify.network.header.KtorHeadersBuilder
-import com.looker.droidify.network.validation.FileValidator
-import com.looker.droidify.network.validation.ValidationException
-import com.looker.droidify.utility.common.extension.size
+import com.looker.starrystore.BuildConfig
+import com.looker.starrystore.network.header.HeadersBuilder
+import com.looker.starrystore.network.header.KtorHeadersBuilder
+import com.looker.starrystore.network.validation.FileValidator
+import com.looker.starrystore.network.validation.ValidationException
+import com.looker.starrystore.utility.common.extension.size
 import io.ktor.client.HttpClient
 import io.ktor.client.HttpClientConfig
 import io.ktor.client.engine.HttpClientEngine

@@ -1,4 +1,4 @@
-package com.looker.droidify.service
+package com.looker.starrystore.service
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -15,26 +15,26 @@ import android.text.style.ForegroundColorSpan
 import android.view.ContextThemeWrapper
 import androidx.core.app.NotificationCompat
 import androidx.fragment.app.Fragment
-import com.looker.droidify.utility.common.Constants
-import com.looker.droidify.utility.common.SdkCheck
-import com.looker.droidify.utility.common.createNotificationChannel
-import com.looker.droidify.utility.common.extension.getColorFromAttr
-import com.looker.droidify.utility.common.extension.notificationManager
-import com.looker.droidify.utility.common.extension.startServiceCompat
-import com.looker.droidify.utility.common.extension.stopForegroundCompat
-import com.looker.droidify.utility.common.log
-import com.looker.droidify.utility.common.result.Result
-import com.looker.droidify.utility.common.sdkAbove
-import com.looker.droidify.datastore.SettingsRepository
-import com.looker.droidify.BuildConfig
-import com.looker.droidify.MainActivity
-import com.looker.droidify.database.Database
-import com.looker.droidify.index.RepositoryUpdater
-import com.looker.droidify.model.ProductItem
-import com.looker.droidify.model.Repository
-import com.looker.droidify.utility.extension.startUpdate
-import com.looker.droidify.network.DataSize
-import com.looker.droidify.network.percentBy
+import com.looker.starrystore.utility.common.Constants
+import com.looker.starrystore.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.createNotificationChannel
+import com.looker.starrystore.utility.common.extension.getColorFromAttr
+import com.looker.starrystore.utility.common.extension.notificationManager
+import com.looker.starrystore.utility.common.extension.startServiceCompat
+import com.looker.starrystore.utility.common.extension.stopForegroundCompat
+import com.looker.starrystore.utility.common.log
+import com.looker.starrystore.utility.common.result.Result
+import com.looker.starrystore.utility.common.sdkAbove
+import com.looker.starrystore.datastore.SettingsRepository
+import com.looker.starrystore.BuildConfig
+import com.looker.starrystore.MainActivity
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.index.RepositoryUpdater
+import com.looker.starrystore.model.ProductItem
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.utility.extension.startUpdate
+import com.looker.starrystore.network.DataSize
+import com.looker.starrystore.network.percentBy
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -52,10 +52,10 @@ import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
 import java.lang.ref.WeakReference
 import javax.inject.Inject
-import com.looker.droidify.R
+import com.looker.starrystore.R
 import android.R as AndroidR
-import com.looker.droidify.R.string as stringRes
-import com.looker.droidify.R.style as styleRes
+import com.looker.starrystore.R.string as stringRes
+import com.looker.starrystore.R.style as styleRes
 import kotlinx.coroutines.Job as CoroutinesJob
 
 @AndroidEntryPoint

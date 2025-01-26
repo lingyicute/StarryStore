@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.serialization
+package com.looker.starrystore.utility.serialization
 
 import com.fasterxml.jackson.core.JsonGenerator
 import com.fasterxml.jackson.core.JsonParser
@@ -8,7 +8,7 @@ import com.looker.core.common.extension.collectNotNullStrings
 import com.looker.core.common.extension.forEachKey
 import com.looker.core.common.extension.writeArray
 import com.looker.core.common.extension.writeDictionary
-import com.looker.droidify.model.Release
+import com.looker.starrystore.model.Release
 
 fun Release.serialize(generator: JsonGenerator) {
     generator.writeNumberField(SERIALVERSION, 1)

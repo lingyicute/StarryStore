@@ -1,30 +1,30 @@
-package com.looker.droidify.sync.common
+package com.looker.starrystore.sync.common
 
-import com.looker.droidify.sync.v1.model.AppV1
-import com.looker.droidify.sync.v1.model.IndexV1
-import com.looker.droidify.sync.v1.model.Localized
-import com.looker.droidify.sync.v1.model.PackageV1
-import com.looker.droidify.sync.v1.model.RepoV1
-import com.looker.droidify.sync.v1.model.maxSdk
-import com.looker.droidify.sync.v1.model.name
-import com.looker.droidify.sync.v2.model.AntiFeatureV2
-import com.looker.droidify.sync.v2.model.CategoryV2
-import com.looker.droidify.sync.v2.model.FeatureV2
-import com.looker.droidify.sync.v2.model.FileV2
-import com.looker.droidify.sync.v2.model.IndexV2
-import com.looker.droidify.sync.v2.model.LocalizedFiles
-import com.looker.droidify.sync.v2.model.LocalizedIcon
-import com.looker.droidify.sync.v2.model.LocalizedString
-import com.looker.droidify.sync.v2.model.ManifestV2
-import com.looker.droidify.sync.v2.model.MetadataV2
-import com.looker.droidify.sync.v2.model.MirrorV2
-import com.looker.droidify.sync.v2.model.PackageV2
-import com.looker.droidify.sync.v2.model.PermissionV2
-import com.looker.droidify.sync.v2.model.RepoV2
-import com.looker.droidify.sync.v2.model.ScreenshotsV2
-import com.looker.droidify.sync.v2.model.SignerV2
-import com.looker.droidify.sync.v2.model.UsesSdkV2
-import com.looker.droidify.sync.v2.model.VersionV2
+import com.looker.starrystore.sync.v1.model.AppV1
+import com.looker.starrystore.sync.v1.model.IndexV1
+import com.looker.starrystore.sync.v1.model.Localized
+import com.looker.starrystore.sync.v1.model.PackageV1
+import com.looker.starrystore.sync.v1.model.RepoV1
+import com.looker.starrystore.sync.v1.model.maxSdk
+import com.looker.starrystore.sync.v1.model.name
+import com.looker.starrystore.sync.v2.model.AntiFeatureV2
+import com.looker.starrystore.sync.v2.model.CategoryV2
+import com.looker.starrystore.sync.v2.model.FeatureV2
+import com.looker.starrystore.sync.v2.model.FileV2
+import com.looker.starrystore.sync.v2.model.IndexV2
+import com.looker.starrystore.sync.v2.model.LocalizedFiles
+import com.looker.starrystore.sync.v2.model.LocalizedIcon
+import com.looker.starrystore.sync.v2.model.LocalizedString
+import com.looker.starrystore.sync.v2.model.ManifestV2
+import com.looker.starrystore.sync.v2.model.MetadataV2
+import com.looker.starrystore.sync.v2.model.MirrorV2
+import com.looker.starrystore.sync.v2.model.PackageV2
+import com.looker.starrystore.sync.v2.model.PermissionV2
+import com.looker.starrystore.sync.v2.model.RepoV2
+import com.looker.starrystore.sync.v2.model.ScreenshotsV2
+import com.looker.starrystore.sync.v2.model.SignerV2
+import com.looker.starrystore.sync.v2.model.UsesSdkV2
+import com.looker.starrystore.sync.v2.model.VersionV2
 
 private const val V1_LOCALE = "en-US"
 

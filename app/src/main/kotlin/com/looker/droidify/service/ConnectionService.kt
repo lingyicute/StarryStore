@@ -1,4 +1,4 @@
-package com.looker.droidify.service
+package com.looker.starrystore.service
 
 import android.app.Service
 import android.content.Intent

@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.appList
+package com.looker.starrystore.ui.appList
 
 import android.database.Cursor
 import android.os.Bundle
@@ -14,17 +14,17 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.looker.droidify.utility.common.Scroller
-import com.looker.droidify.R
-import com.looker.droidify.R.string as stringRes
-import com.looker.droidify.utility.common.extension.dp
-import com.looker.droidify.utility.common.extension.isFirstItemVisible
-import com.looker.droidify.utility.common.extension.systemBarsMargin
-import com.looker.droidify.utility.common.extension.systemBarsPadding
-import com.looker.droidify.model.ProductItem
-import com.looker.droidify.database.CursorOwner
-import com.looker.droidify.databinding.RecyclerViewWithFabBinding
-import com.looker.droidify.utility.extension.screenActivity
+import com.looker.starrystore.utility.common.Scroller
+import com.looker.starrystore.R
+import com.looker.starrystore.R.string as stringRes
+import com.looker.starrystore.utility.common.extension.dp
+import com.looker.starrystore.utility.common.extension.isFirstItemVisible
+import com.looker.starrystore.utility.common.extension.systemBarsMargin
+import com.looker.starrystore.utility.common.extension.systemBarsPadding
+import com.looker.starrystore.model.ProductItem
+import com.looker.starrystore.database.CursorOwner
+import com.looker.starrystore.databinding.RecyclerViewWithFabBinding
+import com.looker.starrystore.utility.extension.screenActivity
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 

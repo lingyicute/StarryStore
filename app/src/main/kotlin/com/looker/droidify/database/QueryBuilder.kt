@@ -1,11 +1,11 @@
-package com.looker.droidify.database
+package com.looker.starrystore.database
 
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.os.CancellationSignal
-import com.looker.droidify.utility.common.extension.asSequence
-import com.looker.droidify.utility.common.log
-import com.looker.droidify.BuildConfig
+import com.looker.starrystore.utility.common.extension.asSequence
+import com.looker.starrystore.utility.common.log
+import com.looker.starrystore.BuildConfig
 
 class QueryBuilder {
     companion object {

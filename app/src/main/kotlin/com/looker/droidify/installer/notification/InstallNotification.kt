@@ -1,14 +1,14 @@
-package com.looker.droidify.installer.notification
+package com.looker.starrystore.installer.notification
 
 import android.app.Notification
 import android.app.NotificationManager
 import android.content.Context
 import android.graphics.Color
 import androidx.core.app.NotificationCompat
-import com.looker.droidify.utility.common.Constants.NOTIFICATION_CHANNEL_INSTALL
-import com.looker.droidify.utility.common.Constants.NOTIFICATION_ID_INSTALL
-import com.looker.droidify.installer.model.InstallState
-import com.looker.droidify.R
+import com.looker.starrystore.utility.common.Constants.NOTIFICATION_CHANNEL_INSTALL
+import com.looker.starrystore.utility.common.Constants.NOTIFICATION_ID_INSTALL
+import com.looker.starrystore.installer.model.InstallState
+import com.looker.starrystore.R
 
 fun NotificationManager.installNotification(
     packageName: String,

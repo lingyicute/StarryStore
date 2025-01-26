@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.appDetail
+package com.looker.starrystore.ui.appDetail
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -47,32 +47,32 @@ import com.google.android.material.imageview.ShapeableImageView
 import com.google.android.material.materialswitch.MaterialSwitch
 import com.google.android.material.progressindicator.LinearProgressIndicator
 import com.google.android.material.snackbar.Snackbar
-import com.looker.droidify.R
-import com.looker.droidify.content.ProductPreferences
-import com.looker.droidify.model.InstalledItem
-import com.looker.droidify.model.Product
-import com.looker.droidify.model.ProductPreference
-import com.looker.droidify.model.Release
-import com.looker.droidify.model.Repository
-import com.looker.droidify.model.findSuggested
-import com.looker.droidify.network.DataSize
-import com.looker.droidify.utility.PackageItemResolver
-import com.looker.droidify.utility.common.extension.authentication
-import com.looker.droidify.utility.common.extension.copyToClipboard
-import com.looker.droidify.utility.common.extension.corneredBackground
-import com.looker.droidify.utility.common.extension.dp
-import com.looker.droidify.utility.common.extension.dpToPx
-import com.looker.droidify.utility.common.extension.getColorFromAttr
-import com.looker.droidify.utility.common.extension.getDrawableCompat
-import com.looker.droidify.utility.common.extension.getMutatedIcon
-import com.looker.droidify.utility.common.extension.inflate
-import com.looker.droidify.utility.common.extension.open
-import com.looker.droidify.utility.common.extension.setTextSizeScaled
-import com.looker.droidify.utility.common.nullIfEmpty
-import com.looker.droidify.utility.extension.android.Android
-import com.looker.droidify.utility.extension.resources.TypefaceExtra
-import com.looker.droidify.utility.extension.resources.sizeScaled
-import com.looker.droidify.widget.StableRecyclerAdapter
+import com.looker.starrystore.R
+import com.looker.starrystore.content.ProductPreferences
+import com.looker.starrystore.model.InstalledItem
+import com.looker.starrystore.model.Product
+import com.looker.starrystore.model.ProductPreference
+import com.looker.starrystore.model.Release
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.model.findSuggested
+import com.looker.starrystore.network.DataSize
+import com.looker.starrystore.utility.PackageItemResolver
+import com.looker.starrystore.utility.common.extension.authentication
+import com.looker.starrystore.utility.common.extension.copyToClipboard
+import com.looker.starrystore.utility.common.extension.corneredBackground
+import com.looker.starrystore.utility.common.extension.dp
+import com.looker.starrystore.utility.common.extension.dpToPx
+import com.looker.starrystore.utility.common.extension.getColorFromAttr
+import com.looker.starrystore.utility.common.extension.getDrawableCompat
+import com.looker.starrystore.utility.common.extension.getMutatedIcon
+import com.looker.starrystore.utility.common.extension.inflate
+import com.looker.starrystore.utility.common.extension.open
+import com.looker.starrystore.utility.common.extension.setTextSizeScaled
+import com.looker.starrystore.utility.common.nullIfEmpty
+import com.looker.starrystore.utility.extension.android.Android
+import com.looker.starrystore.utility.extension.resources.TypefaceExtra
+import com.looker.starrystore.utility.extension.resources.sizeScaled
+import com.looker.starrystore.widget.StableRecyclerAdapter
 import kotlinx.datetime.Instant
 import kotlinx.datetime.TimeZone
 import kotlinx.datetime.toJavaLocalDateTime
@@ -86,8 +86,8 @@ import kotlin.math.PI
 import kotlin.math.roundToInt
 import kotlin.math.sin
 import com.google.android.material.R as MaterialR
-import com.looker.droidify.R.drawable as drawableRes
-import com.looker.droidify.R.string as stringRes
+import com.looker.starrystore.R.drawable as drawableRes
+import com.looker.starrystore.R.string as stringRes
 
 class AppDetailAdapter(private val callbacks: Callbacks) :
     StableRecyclerAdapter<AppDetailAdapter.ViewType, RecyclerView.ViewHolder>() {

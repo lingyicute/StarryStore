@@ -1,4 +1,4 @@
-package com.looker.droidify.network.header
+package com.looker.starrystore.network.header
 
 import io.ktor.http.HttpHeaders
 import io.ktor.util.encodeBase64

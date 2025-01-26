@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common
+package com.looker.starrystore.utility.common
 
 import android.Manifest
 import android.app.Activity
@@ -8,8 +8,8 @@ import android.os.Build
 import android.provider.Settings
 import androidx.core.content.ContextCompat
 import androidx.core.net.toUri
-import com.looker.droidify.utility.common.extension.intent
-import com.looker.droidify.utility.common.extension.powerManager
+import com.looker.starrystore.utility.common.extension.intent
+import com.looker.starrystore.utility.common.extension.powerManager
 
 fun Context.isIgnoreBatteryEnabled() =
     powerManager?.isIgnoringBatteryOptimizations(packageName) == true

@@ -1,4 +1,4 @@
-package com.looker.droidify.sync.utils
+package com.looker.starrystore.sync.utils
 
 import java.io.File
 import java.security.CodeSigner

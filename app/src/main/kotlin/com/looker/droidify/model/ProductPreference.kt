@@ -1,4 +1,4 @@
-package com.looker.droidify.model
+package com.looker.starrystore.model
 
 data class ProductPreference(val ignoreUpdates: Boolean, val ignoreVersionCode: Long) {
     fun shouldIgnoreUpdate(versionCode: Long): Boolean {

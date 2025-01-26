@@ -1,6 +1,6 @@
-package com.looker.droidify.domain
+package com.looker.starrystore.domain
 
-import com.looker.droidify.domain.model.Repo
+import com.looker.starrystore.domain.model.Repo
 import kotlinx.coroutines.flow.Flow
 
 interface RepoRepository {

@@ -13,13 +13,13 @@ plugins {
 
 android {
     val latestVersionName = "0.6.4"
-    namespace = "com.looker.droidify"
+    namespace = "com.looker.starrystore"
     buildToolsVersion = "35.0.0"
     compileSdk = 35
     defaultConfig {
         minSdk = 23
         targetSdk = 35
-        applicationId = "com.looker.droidify"
+        applicationId = "com.looker.starrystore"
         versionCode = 640
         versionName = latestVersionName
         vectorDrawables.useSupportLibrary = true

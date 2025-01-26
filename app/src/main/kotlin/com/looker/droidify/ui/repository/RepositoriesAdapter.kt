@@ -1,13 +1,13 @@
-package com.looker.droidify.ui.repository
+package com.looker.starrystore.ui.repository
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.looker.droidify.model.Repository
-import com.looker.droidify.database.Database
-import com.looker.droidify.databinding.RepositoryItemBinding
-import com.looker.droidify.widget.CursorRecyclerAdapter
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.databinding.RepositoryItemBinding
+import com.looker.starrystore.widget.CursorRecyclerAdapter
 
 class RepositoriesAdapter(
     private val navigate: (Repository) -> Unit,

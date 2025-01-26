@@ -1,18 +1,18 @@
-package com.looker.droidify.sync.v1
+package com.looker.starrystore.sync.v1
 
 import android.content.Context
-import com.looker.droidify.domain.model.Fingerprint
-import com.looker.droidify.domain.model.Repo
-import com.looker.droidify.sync.Parser
-import com.looker.droidify.sync.Syncable
-import com.looker.droidify.sync.common.INDEX_V1_NAME
-import com.looker.droidify.sync.common.IndexJarValidator
-import com.looker.droidify.sync.common.JsonParser
-import com.looker.droidify.sync.common.downloadIndex
-import com.looker.droidify.sync.common.toV2
-import com.looker.droidify.sync.v1.model.IndexV1
-import com.looker.droidify.sync.v2.model.IndexV2
-import com.looker.droidify.network.Downloader
+import com.looker.starrystore.domain.model.Fingerprint
+import com.looker.starrystore.domain.model.Repo
+import com.looker.starrystore.sync.Parser
+import com.looker.starrystore.sync.Syncable
+import com.looker.starrystore.sync.common.INDEX_V1_NAME
+import com.looker.starrystore.sync.common.IndexJarValidator
+import com.looker.starrystore.sync.common.JsonParser
+import com.looker.starrystore.sync.common.downloadIndex
+import com.looker.starrystore.sync.common.toV2
+import com.looker.starrystore.sync.v1.model.IndexV1
+import com.looker.starrystore.sync.v2.model.IndexV2
+import com.looker.starrystore.network.Downloader
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 

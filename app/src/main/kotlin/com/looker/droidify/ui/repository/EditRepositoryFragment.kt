@@ -1,4 +1,4 @@
-package com.looker.droidify.ui.repository
+package com.looker.starrystore.ui.repository
 
 import android.os.Bundle
 import android.text.Selection
@@ -15,21 +15,21 @@ import androidx.fragment.app.DialogFragment
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.snackbar.Snackbar
-import com.looker.droidify.utility.common.extension.clipboardManager
-import com.looker.droidify.utility.common.extension.get
-import com.looker.droidify.utility.common.extension.getMutatedIcon
-import com.looker.droidify.utility.common.nullIfEmpty
-import com.looker.droidify.model.Repository
-import com.looker.droidify.database.Database
-import com.looker.droidify.databinding.EditRepositoryBinding
-import com.looker.droidify.service.Connection
-import com.looker.droidify.service.SyncService
-import com.looker.droidify.ui.Message
-import com.looker.droidify.ui.MessageDialog
-import com.looker.droidify.ui.ScreenFragment
-import com.looker.droidify.utility.extension.screenActivity
-import com.looker.droidify.network.Downloader
-import com.looker.droidify.network.NetworkResponse
+import com.looker.starrystore.utility.common.extension.clipboardManager
+import com.looker.starrystore.utility.common.extension.get
+import com.looker.starrystore.utility.common.extension.getMutatedIcon
+import com.looker.starrystore.utility.common.nullIfEmpty
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.database.Database
+import com.looker.starrystore.databinding.EditRepositoryBinding
+import com.looker.starrystore.service.Connection
+import com.looker.starrystore.service.SyncService
+import com.looker.starrystore.ui.Message
+import com.looker.starrystore.ui.MessageDialog
+import com.looker.starrystore.ui.ScreenFragment
+import com.looker.starrystore.utility.extension.screenActivity
+import com.looker.starrystore.network.Downloader
+import com.looker.starrystore.network.NetworkResponse
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -44,8 +44,8 @@ import java.nio.charset.Charset
 import java.util.Locale
 import javax.inject.Inject
 import kotlin.math.min
-import com.looker.droidify.R
-import com.looker.droidify.R.string as stringRes
+import com.looker.starrystore.R
+import com.looker.starrystore.R.string as stringRes
 
 @AndroidEntryPoint
 class EditRepositoryFragment() : ScreenFragment() {

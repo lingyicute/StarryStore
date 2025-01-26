@@ -1,4 +1,4 @@
-package com.looker.droidify.network.validation
+package com.looker.starrystore.network.validation
 
 class ValidationException(override val message: String) : Exception(message)
 

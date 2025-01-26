@@ -1,18 +1,18 @@
-package com.looker.droidify.ui.favourites
+package com.looker.starrystore.ui.favourites
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.looker.droidify.databinding.ProductItemBinding
-import com.looker.droidify.model.Product
-import com.looker.droidify.model.Repository
-import com.looker.droidify.utility.common.extension.authentication
-import com.looker.droidify.utility.common.extension.corneredBackground
-import com.looker.droidify.utility.common.extension.dp
-import com.looker.droidify.utility.common.extension.getColorFromAttr
-import com.looker.droidify.utility.common.nullIfEmpty
+import com.looker.starrystore.databinding.ProductItemBinding
+import com.looker.starrystore.model.Product
+import com.looker.starrystore.model.Repository
+import com.looker.starrystore.utility.common.extension.authentication
+import com.looker.starrystore.utility.common.extension.corneredBackground
+import com.looker.starrystore.utility.common.extension.dp
+import com.looker.starrystore.utility.common.extension.getColorFromAttr
+import com.looker.starrystore.utility.common.nullIfEmpty
 import com.google.android.material.R as MaterialR
 
 class FavouriteFragmentAdapter(

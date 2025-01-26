@@ -1,12 +1,12 @@
-package com.looker.droidify.database
+package com.looker.starrystore.database
 
 import android.database.Cursor
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.loader.app.LoaderManager
 import androidx.loader.content.Loader
-import com.looker.droidify.datastore.model.SortOrder
-import com.looker.droidify.model.ProductItem
+import com.looker.starrystore.datastore.model.SortOrder
+import com.looker.starrystore.model.ProductItem
 
 class CursorOwner : Fragment(), LoaderManager.LoaderCallbacks<Cursor> {
     sealed class Request {

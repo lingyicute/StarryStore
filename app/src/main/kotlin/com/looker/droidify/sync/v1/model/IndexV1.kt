@@ -1,4 +1,4 @@
-package com.looker.droidify.sync.v1.model
+package com.looker.starrystore.sync.v1.model
 
 /*
 * IndexV1 is licensed under the GPL 3.0 to FDroid Organization.

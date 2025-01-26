@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common.device
+package com.looker.starrystore.utility.common.device
 
 object Huawei {
     val isHuaweiEmui: Boolean

@@ -1,4 +1,4 @@
-package com.looker.droidify.utility.common
+package com.looker.starrystore.utility.common
 
 object Constants {
     const val NOTIFICATION_CHANNEL_SYNCING = "syncing"

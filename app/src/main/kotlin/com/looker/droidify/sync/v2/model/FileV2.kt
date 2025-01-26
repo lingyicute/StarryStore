@@ -1,4 +1,4 @@
-package com.looker.droidify.sync.v2.model
+package com.looker.starrystore.sync.v2.model
 
 /*
 * FileV2 is licensed under the GPL 3.0 to FDroid Organization.

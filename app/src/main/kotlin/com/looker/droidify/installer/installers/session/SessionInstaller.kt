@@ -1,4 +1,4 @@
-package com.looker.droidify.installer.installers.session
+package com.looker.starrystore.installer.installers.session
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -9,14 +9,14 @@ import android.os.Build
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
-import com.looker.droidify.utility.common.SdkCheck
-import com.looker.droidify.utility.common.cache.Cache
-import com.looker.droidify.utility.common.log
-import com.looker.droidify.utility.common.sdkAbove
-import com.looker.droidify.domain.model.PackageName
-import com.looker.droidify.installer.installers.Installer
-import com.looker.droidify.installer.model.InstallItem
-import com.looker.droidify.installer.model.InstallState
+import com.looker.starrystore.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.cache.Cache
+import com.looker.starrystore.utility.common.log
+import com.looker.starrystore.utility.common.sdkAbove
+import com.looker.starrystore.domain.model.PackageName
+import com.looker.starrystore.installer.installers.Installer
+import com.looker.starrystore.installer.model.InstallItem
+import com.looker.starrystore.installer.model.InstallState
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlin.coroutines.resume
 

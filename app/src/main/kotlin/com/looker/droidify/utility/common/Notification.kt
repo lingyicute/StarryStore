@@ -1,10 +1,10 @@
-package com.looker.droidify.utility.common
+package com.looker.starrystore.utility.common
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
-import com.looker.droidify.utility.common.extension.notificationManager
+import com.looker.starrystore.utility.common.extension.notificationManager
 
 fun Context.createNotificationChannel(
     id: String,

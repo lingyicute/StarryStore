@@ -1,4 +1,4 @@
-package com.looker.droidify.domain.model
+package com.looker.starrystore.domain.model
 
 @JvmInline
 value class PackageName(val name: String)

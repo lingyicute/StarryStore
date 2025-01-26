@@ -1,4 +1,4 @@
-package com.looker.droidify.ui
+package com.looker.starrystore.ui
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
@@ -11,16 +11,16 @@ import androidx.core.os.bundleOf
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.looker.droidify.utility.common.SdkCheck
-import com.looker.droidify.utility.common.nullIfEmpty
-import com.looker.droidify.model.Release
-import com.looker.droidify.ui.repository.RepositoryFragment
-import com.looker.droidify.utility.PackageItemResolver
-import com.looker.droidify.utility.extension.android.Android
+import com.looker.starrystore.utility.common.SdkCheck
+import com.looker.starrystore.utility.common.nullIfEmpty
+import com.looker.starrystore.model.Release
+import com.looker.starrystore.ui.repository.RepositoryFragment
+import com.looker.starrystore.utility.PackageItemResolver
+import com.looker.starrystore.utility.extension.android.Android
 import kotlinx.parcelize.Parceler
 import kotlinx.parcelize.Parcelize
 import kotlinx.parcelize.TypeParceler
-import com.looker.droidify.R.string as stringRes
+import com.looker.starrystore.R.string as stringRes
 
 class MessageDialog() : DialogFragment() {
     companion object {

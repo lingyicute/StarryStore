@@ -1,4 +1,4 @@
-package com.looker.droidify.sync
+package com.looker.starrystore.sync
 
 import android.app.job.JobInfo
 import androidx.work.Constraints

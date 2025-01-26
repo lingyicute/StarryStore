@@ -1,4 +1,4 @@
-package com.looker.droidify.di
+package com.looker.starrystore.di
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -7,13 +7,13 @@ import androidx.datastore.dataStoreFile
 import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStoreFile
-import com.looker.droidify.utility.common.Exporter
-import com.looker.droidify.datastore.PreferenceSettingsRepository
-import com.looker.droidify.datastore.Settings
-import com.looker.droidify.datastore.SettingsRepository
-import com.looker.droidify.datastore.SettingsSerializer
-import com.looker.droidify.datastore.exporter.SettingsExporter
-import com.looker.droidify.datastore.migration.ProtoToPreferenceMigration
+import com.looker.starrystore.utility.common.Exporter
+import com.looker.starrystore.datastore.PreferenceSettingsRepository
+import com.looker.starrystore.datastore.Settings
+import com.looker.starrystore.datastore.SettingsRepository
+import com.looker.starrystore.datastore.SettingsSerializer
+import com.looker.starrystore.datastore.exporter.SettingsExporter
+import com.looker.starrystore.datastore.migration.ProtoToPreferenceMigration
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
