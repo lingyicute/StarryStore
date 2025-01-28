@@ -100,7 +100,7 @@
     <string name="password_missing">പാസ്‌വേഡ് കാണുന്നില്ല</string>
     <string name="permissions">അനുമതികൾ</string>
     <string name="requires_FORMAT">%s ആവശ്യമാണ്</string>
-    <string name="restart_app">മാറ്റങ്ങൾ കാണുന്നതിന് Droid-ify പുനരാരംഭിക്കുക</string>
+    <string name="restart_app">മാറ്റങ്ങൾ കാണുന്നതിന് StarryStore പുനരാരംഭിക്കുക</string>
     <string name="socks_proxy">സോക്സ് പ്രോക്സി</string>
     <string name="sorting_order">അടുക്കൽ ക്രമം</string>
     <string name="system">സിസ്റ്റം</string>

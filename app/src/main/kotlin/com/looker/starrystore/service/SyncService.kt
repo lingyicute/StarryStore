@@ -503,7 +503,7 @@ class SyncService : ConnectionService<SyncService.Binder>() {
         log("Check Running", "Syncing")
         Database.ProductAdapter
             .getUpdates()
-            // Update Droid-ify the last
+            // Update StarryStore the last
             .sortedBy { if (it.packageName == packageName) 1 else -1 }
             .map {
                 Database.InstalledAdapter.get(it.packageName, null) to

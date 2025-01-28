@@ -205,7 +205,7 @@
     <string name="force_clean_up_DESC">Puhdistaa tarpeettomat tiedostot</string>
     <string name="repository_unreachable">Ohjelmavarasto ei ole tavoitettavissa</string>
     <string name="installing">Asentaa</string>
-    <string name="restart_app">Käynnistä Droid-ify uudelleen nähdäksesi muutokset</string>
+    <string name="restart_app">Käynnistä StarryStore uudelleen nähdäksesi muutokset</string>
     <string name="waiting_to_start_installation">Odotetaan asennuksen aloittamista…</string>
     <string name="auto_update">Päivitä sovelluksia automaattisesti</string>
     <string name="auto_update_apps">Yritä asentaa päivitykset automaattisesti</string>

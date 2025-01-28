@@ -208,7 +208,7 @@
     <string name="auto_update">Installer nye versjoner av programmer automatisk</string>
     <string name="waiting_to_start_installation">Venter på å starte installasjon …</string>
     <string name="installing">Installerer</string>
-    <string name="restart_app">Start Droid-ify på ny for å ta i bruk endringene</string>
+    <string name="restart_app">Start StarryStore på ny for å ta i bruk endringene</string>
     <string name="has_non_free_components">Har ufrie komponenter</string>
     <string name="home_screen_swiping">Hjemmeskjermsdragning</string>
     <string name="contains_nsfw">Inneholder sensurerbart innhold</string>

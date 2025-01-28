@@ -210,6 +210,6 @@
     <string name="auto_update">Actualizare automată a aplicațiilor</string>
     <string name="waiting_to_start_installation">Se așteaptă începerea instalării…</string>
     <string name="auto_update_apps">Încercați să instalați actualizările automat</string>
-    <string name="restart_app">Reporniți Droid-ify pentru a vedea modificările</string>
+    <string name="restart_app">Reporniți StarryStore pentru a vedea modificările</string>
     <string name="installing">Instalarea</string>
 </resources>

@@ -205,7 +205,7 @@
     <string name="force_clean_up_DESC">Dọn dẹp các tệp dư thừa</string>
     <string name="repository_unreachable">Kho lưu trữ không thể truy cập</string>
     <string name="enable_repo">Kích hoạt kho lưu trữ</string>
-    <string name="restart_app">Khởi động lại Droid-ify để xem thay đổi</string>
+    <string name="restart_app">Khởi động lại StarryStore để xem thay đổi</string>
     <string name="home_screen_swiping">Vuốt màn hình chính</string>
     <string name="contains_nsfw">Chứa nội dung không an toàn cho công việc</string>
     <string name="has_non_free_components">Có các thành phần không tự do</string>

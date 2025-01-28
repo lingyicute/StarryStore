@@ -211,7 +211,7 @@
     <string name="repository_unreachable">Repositório inacessível</string>
     <string name="enable_repo">Ativar o repositório</string>
     <string name="installing">Instalando</string>
-    <string name="restart_app">Reinicie o Droid-ify para ver as alterações</string>
+    <string name="restart_app">Reinicie o StarryStore para ver as alterações</string>
     <string name="waiting_to_start_installation">Aguardando para iniciar a instalação…</string>
     <string name="auto_update">Atualizar aplicativos automaticamente</string>
     <string name="auto_update_apps">Tente instalar atualizações automaticamente</string>

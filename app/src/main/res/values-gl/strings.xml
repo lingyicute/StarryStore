@@ -205,7 +205,7 @@
     <string name="force_clean_up">Forzala limpeza</string>
     <string name="enable_repo">Activalo repositorio</string>
     <string name="installing">Instalando</string>
-    <string name="restart_app">Reinicia Droid-ify para velos cambios</string>
+    <string name="restart_app">Reinicia StarryStore para velos cambios</string>
     <string name="waiting_to_start_installation">Agardando para iniciala instalación…</string>
     <string name="auto_update">Actualizacións automática das aplicacións</string>
     <string name="auto_update_apps">Tenta instalar actualizacións automaticamente</string>

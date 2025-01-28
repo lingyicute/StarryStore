@@ -209,7 +209,7 @@
     <string name="enable_repo">Ativar repositório</string>
     <string name="waiting_to_start_installation">À espera para começar a instalação…</string>
     <string name="installing">A instalar</string>
-    <string name="restart_app">Reinicie Droid-ify para ver as alterações</string>
+    <string name="restart_app">Reinicie StarryStore para ver as alterações</string>
     <string name="auto_update">Atualizações automáticas</string>
     <string name="auto_update_apps">Tentar atualizar aplicações automaticamente</string>
     <string name="has_non_free_components">Tem componentes não livres</string>
