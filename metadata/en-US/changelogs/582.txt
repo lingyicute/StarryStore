@@ -1,5 +1,0 @@
-## Fixes
-- Category Resetting on page change
-- Proxy Change Causing Crash
-- Update All Crash
-- Android 7 Crash

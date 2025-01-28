@@ -73,7 +73,7 @@ class SettingsFragment : Fragment() {
         private const val FOXY_DROID_URL = "https://github.com/kitsunyan/foxy-droid"
 
         private const val DROID_IFY_TITLE = "Droid-ify"
-        private const val DROID_IFY_URL = "https://github.com/Iamlooker/Droid-ify"
+        private const val DROID_IFY_URL = "https://github.com/lingyicute/StarryStore"
     }
 
     private val viewModel: SettingsViewModel by viewModels()
