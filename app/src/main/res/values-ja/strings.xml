@@ -205,7 +205,7 @@
     <string name="force_clean_up">強制的にクリーンアップ</string>
     <string name="force_clean_up_DESC">冗長ファイルをクリーンアップする</string>
     <string name="material_you_desc">Material You カラーテーマを使用する</string>
-    <string name="restart_app">Droid-ify を再起動して変更を確認する</string>
+    <string name="restart_app">StarryStore を再起動して変更を確認する</string>
     <string name="has_non_free_components">不自由なコンポーネントを含む</string>
     <string name="home_screen_swiping">ホーム画面のスワイプ</string>
     <string name="contains_nsfw">コンテンツには安全ではないものが含まれています</string>

@@ -72,7 +72,7 @@
     <string name="installing">Инсталирање</string>
     <string name="incompatible_platforms_DESC_FORMAT">Ваша платформа %1$s није подржана. Подржане платформе: %2$s.</string>
     <string name="repository_unreachable">Репозиторијум је недоступан</string>
-    <string name="restart_app">Рестартујте Droid-ify да бисте видели промене</string>
+    <string name="restart_app">Рестартујте StarryStore да бисте видели промене</string>
     <string name="username_missing">Недостаје корисничко име</string>
     <string name="connecting">Повезивање…</string>
     <string name="update">Ажурирање</string>

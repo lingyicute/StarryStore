@@ -208,7 +208,7 @@
     <string name="force_clean_up_DESC">Neteja els fitxers redundants</string>
     <string name="enable_repo">Habiliteu el repositori</string>
     <string name="waiting_to_start_installation">S\'està esperant per iniciar la instal·lació…</string>
-    <string name="restart_app">Reinicieu Droid-ify per veure els canvis</string>
+    <string name="restart_app">Reinicieu StarryStore per veure els canvis</string>
     <string name="installing">Instal·lació</string>
     <string name="import_settings_DESC">Importa configuració i preferits des de fitxer</string>
     <string name="has_tethered_network">Enllaçat a un determinat servei de xarxa</string>

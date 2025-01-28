@@ -70,7 +70,7 @@ android {
         create("alpha") {
             initWith(getByName("debug"))
             applicationIdSuffix = ".alpha"
-            resValue("string", "application_name", "Droid-ify Alpha")
+            resValue("string", "application_name", "StarryStore Alpha")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard.pro"

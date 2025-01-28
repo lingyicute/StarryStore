@@ -6,7 +6,7 @@ on:
     paths-ignore:
       - '**.md'
       - '**.yml'
-      - '**.xml'
+      - 'strings.xml'
 
 concurrency:
   group: "release-build"

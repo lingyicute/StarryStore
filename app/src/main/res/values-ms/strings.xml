@@ -175,7 +175,7 @@
     <string name="repository_unsigned_DESC">Tidak ditandatangani. Tidak dapat mengesahkan senarai permohonan. Berhati-hati memuat turun aplikasi dari repositori yang tidak ditandatangani.</string>
     <string name="repository_unreachable">Repositori tidak dapat dicapai</string>
     <string name="requires_FORMAT">Memerlukan %s</string>
-    <string name="restart_app">Mulakan semula Droid-ify untuk melihat perubahan</string>
+    <string name="restart_app">Mulakan semula StarryStore untuk melihat perubahan</string>
     <string name="root_permission">Pasang Senyap</string>
     <string name="root_permission_description">Benarkan kebenaran root untuk pemasangan senyap</string>
     <string name="saving_details">Menyimpan butiran…</string>

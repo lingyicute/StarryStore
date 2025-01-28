@@ -205,7 +205,7 @@
     <string name="enable_repo">Repository aktivieren</string>
     <string name="force_clean_up_DESC">Entfernt doppelte Dateien</string>
     <string name="installing">Installation</string>
-    <string name="restart_app">Starten Sie Droid-ify neu, um die Änderungen zu sehen</string>
+    <string name="restart_app">Starten Sie StarryStore neu, um die Änderungen zu sehen</string>
     <string name="waiting_to_start_installation">Warten auf den Beginn der Installation …</string>
     <string name="auto_update">Apps automatisch aktualisieren</string>
     <string name="auto_update_apps">Versuche, Updates automatisch zu installieren</string>

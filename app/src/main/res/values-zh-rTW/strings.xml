@@ -204,7 +204,7 @@
     <string name="auto_update">自動更新程式</string>
     <string name="auto_update_apps">嘗試自動安裝更新</string>
     <string name="installing">安裝</string>
-    <string name="restart_app">重新啟動 Droid-ify 查看更變</string>
+    <string name="restart_app">重新啟動 StarryStore 查看更變</string>
     <string name="waiting_to_start_installation">等待開始安裝…</string>
     <string name="has_non_free_components">具有非自由元件</string>
     <string name="connection_error_DESC">無法連線至伺服器</string>

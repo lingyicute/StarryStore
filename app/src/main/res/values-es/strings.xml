@@ -208,7 +208,7 @@
     <string name="force_clean_up_DESC">Limpiar archivos redundantes</string>
     <string name="enable_repo">Habilitar el repositorio</string>
     <string name="installing">Instalando</string>
-    <string name="restart_app">Reinicia Droid-ify para ver los cambios</string>
+    <string name="restart_app">Reinicia StarryStore para ver los cambios</string>
     <string name="waiting_to_start_installation">Esperando para iniciar la instalación…</string>
     <string name="auto_update">Actualizar automáticamente las aplicaciones</string>
     <string name="auto_update_apps">Intentar instalar actualizaciones automáticamente</string>

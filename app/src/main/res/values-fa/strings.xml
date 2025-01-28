@@ -201,7 +201,7 @@
     <string name="material_you_desc">از پوسته رنگی material you استفاده کنید</string>
     <string name="enable_repo">مخزن را فعال کنید</string>
     <string name="force_clean_up">پاکسازی اجباری</string>
-    <string name="restart_app">برای مشاهده تغییرات، Droid-ify را مجددا راه اندازی کنید</string>
+    <string name="restart_app">برای مشاهده تغییرات، StarryStore را مجددا راه اندازی کنید</string>
     <string name="favourites">موارد دلخواه</string>
     <string name="repository_unreachable">مخزن قابل دسترسی نیست</string>
     <string name="auto_update">به‌روز رسانی خودکار کاره‌ها</string>

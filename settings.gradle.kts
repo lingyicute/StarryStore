@@ -14,5 +14,5 @@ dependencyResolutionManagement {
 	}
 }
 
-rootProject.name = "Droid-ify"
+rootProject.name = "StarryStore"
 include(":app")

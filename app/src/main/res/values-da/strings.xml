@@ -136,7 +136,7 @@
     <string name="proxy_port_error_not_int">Proxyport kan kun være et heltal</string>
     <string name="proxy_type">Proxytype</string>
     <string name="requires_FORMAT">Kræver %s</string>
-    <string name="restart_app">Genstart Droid-ify for at se ændringer</string>
+    <string name="restart_app">Genstart StarryStore for at se ændringer</string>
     <string name="save">Gem</string>
     <string name="saving_details">Gemmer detaljer…</string>
     <string name="screenshots">Skærmbilleder</string>

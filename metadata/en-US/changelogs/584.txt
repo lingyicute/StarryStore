@@ -2,7 +2,7 @@ Improvements:
 - Shizuku permission handling
 - User detection with root
 - Add setting to block swiping between pages
-- Update Droid-ify last in list
+- Update StarryStore last in list
 - Misc. changes
 
 Fixes:

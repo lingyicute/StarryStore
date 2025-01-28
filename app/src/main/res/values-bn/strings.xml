@@ -130,7 +130,7 @@
     <string name="recently_updated">সম্প্রতি আপডেট করা হয়েছে</string>
     <string name="repository">ভান্ডার</string>
     <string name="repository_not_used_DESC">এই সংগ্রহস্থল এখনও ব্যবহার করা হয় নি. এটিতে থাকা অ্যাপ্লিকেশনগুলি দেখতে এটি চালু করুন।</string>
-    <string name="restart_app">পরিবর্তনগুলি দেখতে Droid-ify পুনরায় চালু করুন</string>
+    <string name="restart_app">পরিবর্তনগুলি দেখতে StarryStore পুনরায় চালু করুন</string>
     <string name="show_older_versions">পুরানো সংস্করণ দেখান</string>
     <string name="plus_more_FORMAT">+%d আরো</string>
     <string name="favourites">প্রিয়</string>

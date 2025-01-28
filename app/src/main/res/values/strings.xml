@@ -189,7 +189,7 @@
     <string name="requires_FORMAT">Requires %s</string>
     <string name="require_background_access">Require Background Access</string>
     <string name="require_background_access_DESC">Background Access is required to properly run background sync</string>
-    <string name="restart_app">Restart Droid-ify to see changes</string>
+    <string name="restart_app">Restart StarryStore to see changes</string>
     <string name="root_permission">Silent Install</string>
     <string name="root_permission_description">Allow root permission for silent installs</string>
     <string name="save">Save</string>

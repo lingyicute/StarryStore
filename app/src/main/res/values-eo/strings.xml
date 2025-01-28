@@ -70,7 +70,7 @@
     <string name="installing">Instalante</string>
     <string name="incompatible_platforms_DESC_FORMAT">Via %1$s platformo ne estas subtenata. Subtenataj platformoj: %2$s.</string>
     <string name="repository_unreachable">Deponejo neatingebla</string>
-    <string name="restart_app">Rekomenci Droid-ify por vidi ŝanĝojn</string>
+    <string name="restart_app">Rekomenci StarryStore por vidi ŝanĝojn</string>
     <string name="username_missing">Uzantnomo mankas</string>
     <string name="connecting">Konektanta…</string>
     <string name="update">Ĝisdatigi</string>
