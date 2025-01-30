@@ -107,7 +107,7 @@
     <string name="project_website">项目网站</string>
     <string name="promotes_non_free_network_services">推广非自由网络服务</string>
     <string name="promotes_non_free_software">推广非自由软件</string>
-    <string name="provided_by_FORMAT">由 %s 提供</string>
+    <string name="provided_by_FORMAT">提供者：%s</string>
     <string name="proxy">网络</string>
     <string name="proxy_host">代理主机</string>
     <string name="proxy_port">代理端口</string>
@@ -184,7 +184,7 @@
     <plurals name="days">
         <item quantity="other">天</item>
     </plurals>
-    <string name="only_on_wifi_with_charging">仅在连接 Wi-Fi 和充电时</string>
+    <string name="only_on_wifi_with_charging">仅在连接 WLAN 且接入电源时</string>
     <string name="cleanup_title">APK 自动清理间隔</string>
     <string name="cleanup_description">检查并删除已下载文件的周期</string>
     <plurals name="hours">
@@ -230,7 +230,7 @@
     <string name="has_tethered_network">依赖于特定网络服务</string>
     <string name="cannot_open_link">无法打开链接</string>
     <string name="require_background_access">小提示</string>
-    <string name="require_background_access_DESC">如果希望 StarryStore 在后台自动执行同步，记得去系统设置里授予它“后台运行”权限哦。</string>
+    <string name="require_background_access_DESC">如果希望 StarryStore 自动同步数据，记得去系统设置里授予它“后台运行”权限哦。</string>
     <string name="installation_failed">安装失败</string>
     <string name="installation_failed_DESC">无法安装 %s</string>
     <string name="uninstalled_application">已卸载</string>
@@ -238,5 +238,5 @@
     <string name="ignore_signature_summary">隐藏关于签名不一致的提示</string>
     <string name="ignore_signature">忽略签名</string>
     <string name="insufficient_storage">空间不足</string>
-    <string name="insufficient_storage_DESC">设备上没有足够的可用空间来安装此 App。尝试清理一些空间。</string>
+    <string name="insufficient_storage_DESC">设备上没有足够的存储空间来安装此 App，尝试清理一些空间再试吧。</string>
 </resources>
