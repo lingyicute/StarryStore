@@ -56,12 +56,12 @@ android {
     buildTypes {
         getByName("debug") {
             applicationIdSuffix = ".debug"
-            resValue("string", "application_name", "Droid-ify-Debug")
+            resValue("string", "application_name", "StarryStore-Debug")
         }
         getByName("release") {
             isMinifyEnabled = true
             isShrinkResources = true
-            resValue("string", "application_name", "Droid-ify")
+            resValue("string", "application_name", "StarryStore")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard.pro"
