@@ -163,8 +163,8 @@
     <string name="validation_index_error_DESC">无法验证索引</string>
     <string name="version">版本</string>
     <string name="version_FORMAT">版本 %s</string>
-    <string name="versions">版本</string>
-    <string name="waiting_to_start_download">等待开始下载…</string>
+    <string name="versions">可用的版本</string>
+    <string name="waiting_to_start_download">准备开始下载…</string>
     <string name="whats_new">更新日志</string>
     <string name="website">网站</string>
     <string name="prefs_language_title">语言</string>
