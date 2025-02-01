@@ -6,5 +6,5 @@
     <dimen name="shape_margin_large">16dp</dimen>
     <dimen name="shape_small_corner">4dp</dimen>
     <dimen name="shape_medium_corner">8dp</dimen>
-    <dimen name="shape_extra_large_corner">25dp</dimen>
+    <dimen name="shape_extra_large_corner">30dp</dimen>
 </resources>
