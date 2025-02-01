@@ -1,25 +1,16 @@
-<div align="center">
+# StarryStore - The official store for lingyicute's FOSS Apps ✨
 
-<img width="" src="metadata/en-US/images/featureGraphic.png" alt="Droid-ify" align="center">
+[![Github License](https://img.shields.io/github/license/lingyicute/StarryStore?color=%2364f573&style=flat)](https://github.com/lingyicute/StarryStore/blob/master/COPYING)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/lingyicute/StarryStore)
 
-[![Github Stars](https://img.shields.io/github/stars/Iamlooker/Droid-ify?color=%2364f573&style=for-the-badge)](https://github.com/Iamlooker/Droid-ify/stargazers)
-[![Github License](https://img.shields.io/github/license/Iamlooker/Droid-ify?color=%2364f573&style=for-the-badge)](https://github.com/Iamlooker/Droid-ify/blob/master/COPYING)
-[![Github Downloads](https://img.shields.io/github/downloads/Iamlooker/Droid-ify/total.svg?color=%23f5ad64&style=for-the-badge)](https://github.com/Iamlooker/Droid-ify/releases/)
-[![Github Latest](https://img.shields.io/github/v/release/Iamlooker/Droid-ify?display_name=tag&color=%23f5ad64&style=for-the-badge)](https://github.com/Iamlooker/Droid-ify/releases/latest)
-[![FDroid Latest](https://img.shields.io/f-droid/v/com.looker.starrystore?color=%23f5ad64&style=for-the-badge)](https://f-droid.org/packages/com.looker.starrystore)
-
-<div align="left">
+English | [简体中文](./README_ZH.md) 
 
 ## Features
 
-* Material & Clean design
-* Fast repository syncing
-* Smooth user experience
-* Feature-rich
-
-## Screenshots
-
-<img src="metadata/en-US/images/phoneScreenshots/1.png" width="25%" /><img src="metadata/en-US/images/phoneScreenshots/2.png" width="25%" /><img src="metadata/en-US/images/phoneScreenshots/3.png" width="25%" /><img src="metadata/en-US/images/phoneScreenshots/4.png" width="25%" />
+* 🎨 Material & Clean design
+* 🚀 Fast data syncing
+* 🧭 Smooth user experience
+* 📦 Feature-rich
 
 ## Building and Installing
 1. **Install Android Studio**:
@@ -34,12 +25,6 @@
     - Select "Create New Keystore" and enter the required information, including a password.
     - Wait for the build process to finish.
 
-## TODO
-
-- [ ] Add support for `index-v2`
-- [ ] Add detekt code-analysis
-- [ ] Add GitHub Repo feature
-
 ## Contribution
 
 - Pick any issue you would like to resolve
@@ -47,20 +32,21 @@
 - Open a Pull Request
 - Your PR will undergo review
 
-## License
+## 🗂️ License
 
-```
-Droid-ify
+StarryStore is released under the GNU General Public License v3.0 (GPLv3).
 
-Copyright (C) 2023 LooKeR
+Copyright (C) 2025 lingyicute
+
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
+
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
+
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
-```
