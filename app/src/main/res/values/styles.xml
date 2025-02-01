@@ -253,8 +253,8 @@
         <item name="cornerSize">@dimen/shape_medium_corner</item>
     </style>
 
-    <style name="Shape.Large" parent="ShapeAppearance.Material3.LargeComponent">
-        <item name="cornerSize">@dimen/shape_large_corner</item>
+    <style name="Shape.Large" parent="ShapeAppearance.Material3.ExtraLargeComponent">
+        <item name="cornerSize">@dimen/shape_extra_large_corner</item>
     </style>
 
     <style name="PillShapeAppearance">
