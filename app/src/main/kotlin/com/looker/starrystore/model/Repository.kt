@@ -89,7 +89,7 @@ data class Repository(
 
         val defaultRepositories = listOf(
             defaultRepository(
-                address = "https://lingyicute.github.io/StarryStoreStatics/repo",
+                address = "https://lingyicute.github.io/StarryStoreStatics/xyc/repo",
                 name = "StarryStore Official",
                 description = "The official repository of lingyicute.",
                 enabled = true,
