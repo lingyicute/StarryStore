@@ -1,4 +1,4 @@
-# StarryStore - lingyicute 开源软件的官方商店 ✨
+# StarryStore - 梨的独家 App Store ✨
 
 [![Github License](https://img.shields.io/github/license/lingyicute/StarryStore?color=%2364f573&style=flat)](https://github.com/lingyicute/StarryStore/blob/master/COPYING)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/lingyicute/StarryStore)
