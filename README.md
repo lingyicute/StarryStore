@@ -1,6 +1,7 @@
 # StarryStore - The official store for lingyicute's FOSS Apps ✨
 
 [![Github License](https://img.shields.io/github/license/lingyicute/StarryStore?color=%2364f573&style=flat)](https://github.com/lingyicute/StarryStore/blob/master/COPYING)
+![GitHub Created At](https://img.shields.io/github/created-at/lingyicute/StarryStore)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/lingyicute/StarryStore)
 
 English | [简体中文](./README_ZH.md) 
