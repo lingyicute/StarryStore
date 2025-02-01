@@ -13,11 +13,11 @@
         android:id="@+id/app_icon"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_margin="16dp"
+        android:layout_margin="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:shapeAppearanceOverlay="@style/Shape.Medium" />
+        app:shapeAppearanceOverlay="@style/Shape.Small" />
 
     <TextView
         android:id="@+id/app_name"
