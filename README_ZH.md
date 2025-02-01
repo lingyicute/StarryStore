@@ -1,6 +1,7 @@
 # StarryStore - 梨的独家 App Store ✨
 
 [![Github License](https://img.shields.io/github/license/lingyicute/StarryStore?color=%2364f573&style=flat)](https://github.com/lingyicute/StarryStore/blob/master/COPYING)
+![GitHub Created At](https://img.shields.io/github/created-at/lingyicute/StarryStore)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/lingyicute/StarryStore)
 
 [English](./README.md)  | 简体中文
