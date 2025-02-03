@@ -36,7 +36,7 @@
     <color name="md_theme_l_secondaryFixed">#C1D4F1</color>
     <color name="md_theme_l_onSecondaryFixed">#121F0E</color>
     <color name="md_theme_l_secondaryFixedDim">#BBCBB1</color>
-    <color name="md_theme_l_onSecondaryFixedVariant">#3D4B36</color>
+    <color name="md_theme_l_onSecondaryFixedVariant">#3B4857</color>
     <color name="md_theme_l_tertiaryFixed">#FFDCBC</color>
     <color name="md_theme_l_onTertiaryFixed">#2C1700</color>
     <color name="md_theme_l_tertiaryFixedDim">#FBBA73</color>
@@ -55,7 +55,7 @@
     <color name="md_theme_d_onPrimaryContainer">#C1D4F1</color>
     <color name="md_theme_d_secondary">#BBCBB1</color>
     <color name="md_theme_d_onSecondary">#273421</color>
-    <color name="md_theme_d_secondaryContainer">#3D4B36</color>
+    <color name="md_theme_d_secondaryContainer">#3B4857</color>
     <color name="md_theme_d_onSecondaryContainer">#C1D4F1</color>
     <color name="md_theme_d_tertiary">#FBBA73</color>
     <color name="md_theme_d_onTertiary">#492900</color>
@@ -71,7 +71,7 @@
     <color name="md_theme_d_onSurface">#E1E4DA</color>
     <color name="md_theme_d_surfaceVariant">#43483F</color>
     <color name="md_theme_d_onSurfaceVariant">#C3C8BC</color>
-    <color name="md_theme_d_outline">#8D9387</color>
+    <color name="md_theme_d_outline">#8E9196</color>
     <color name="md_theme_d_outlineVariant">#43483F</color>
     <color name="md_theme_d_scrim">#000000</color>
     <color name="md_theme_d_inverseSurface">#E1E4DA</color>
@@ -84,7 +84,7 @@
     <color name="md_theme_d_secondaryFixed">#C1D4F1</color>
     <color name="md_theme_d_onSecondaryFixed">#121F0E</color>
     <color name="md_theme_d_secondaryFixedDim">#BBCBB1</color>
-    <color name="md_theme_d_onSecondaryFixedVariant">#3D4B36</color>
+    <color name="md_theme_d_onSecondaryFixedVariant">#3B4857</color>
     <color name="md_theme_d_tertiaryFixed">#FFDCBC</color>
     <color name="md_theme_d_onTertiaryFixed">#2C1700</color>
     <color name="md_theme_d_tertiaryFixedDim">#FBBA73</color>
