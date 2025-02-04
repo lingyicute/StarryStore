@@ -91,7 +91,7 @@ data class Repository(
             defaultRepository(
                 address = "https://lingyicute.github.io/StarryStoreStatics/xyc/repo",
                 name = "StarryStore Official",
-                description = "The official repository of lingyicute.",
+                description = "lingyicute's official repository for all her free open source apps, also available on GitHub.",
                 enabled = true,
                 fingerprint = "E6FB98BF225A07BF155C46D924F374457DCC50277652D57E453D524E00658512"
             ),
