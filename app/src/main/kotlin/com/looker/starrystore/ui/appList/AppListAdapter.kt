@@ -140,6 +140,9 @@ class AppListAdapter(
             ViewType.PRODUCT -> {
                 holder as ProductViewHolder
                 val productItem = getProductItem(position)
+                (holder.itemView.layoutParams as RecyclerView.LayoutParams).apply {
+                    topMargin = if (position == 0) 6.dp else 0
+                }
                 holder.name.text = productItem.name
                 holder.summary.text = productItem.summary
                 holder.summary.isVisible =
