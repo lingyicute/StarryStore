@@ -12,7 +12,7 @@ plugins {
 }
 
 android {
-    val latestVersionName = "0.6.4"
+    val latestVersionName = "0.7.0"
     namespace = "com.looker.starrystore"
     buildToolsVersion = "35.0.0"
     compileSdk = 35
@@ -20,7 +20,7 @@ android {
         minSdk = 23
         targetSdk = 35
         applicationId = "com.looker.starrystore"
-        versionCode = 640
+        versionCode = 700
         versionName = latestVersionName
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
