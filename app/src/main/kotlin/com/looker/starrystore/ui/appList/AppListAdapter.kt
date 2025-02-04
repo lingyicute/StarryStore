@@ -141,7 +141,7 @@ class AppListAdapter(
                 holder as ProductViewHolder
                 val productItem = getProductItem(position)
                 (holder.itemView.layoutParams as RecyclerView.LayoutParams).apply {
-                    topMargin = if (position == 0) 6.dp else 0
+                    topMargin = if (position == 0) holder.itemView.context.resources.getDimensionPixelSize(R.dimen.shape_margin_medium) else 0
                 }
                 holder.name.text = productItem.name
                 holder.summary.text = productItem.summary
