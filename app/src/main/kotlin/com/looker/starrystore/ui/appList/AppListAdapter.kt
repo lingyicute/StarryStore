@@ -141,7 +141,7 @@ class AppListAdapter(
                 holder as ProductViewHolder
                 val productItem = getProductItem(position)
                 (holder.itemView.layoutParams as RecyclerView.LayoutParams).apply {
-                    topMargin = if (position == 0) holder.itemView.context.resources.getDimensionPixelSize(R.dimen.shape_margin_medium) else holder.itemView.context.resources.getDimensionPixelSize(R.dimen.shape_margin_small)
+                    topMargin = if (position == 0) holder.itemView.context.resources.getDimensionPixelSize(R.dimen.shape_margin_large) else holder.itemView.context.resources.getDimensionPixelSize(R.dimen.shape_margin_small)
                     bottomMargin = if (position == itemCount - 1) holder.itemView.context.resources.getDimensionPixelSize(R.dimen.shape_margin_large) else holder.itemView.context.resources.getDimensionPixelSize(R.dimen.shape_margin_small)
                 }
                 holder.name.text = productItem.name
