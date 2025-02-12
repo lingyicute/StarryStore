@@ -1,39 +1,39 @@
-# StarryStore - 梨的独家 App Store ✨
+# StarryStore - The official store for lingyicute's FOSS Apps ✨
 
 [![Github License](https://img.shields.io/github/license/lingyicute/StarryStore?color=%2364f573&style=flat)](https://github.com/lingyicute/StarryStore/blob/master/COPYING)
 ![GitHub Created At](https://img.shields.io/github/created-at/lingyicute/StarryStore)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/lingyicute/StarryStore)
 
-[English](./README.md)  | 简体中文
+English | [简体中文](./README.md) 
 
-## 特性
+## Features
 
-* 🎨 Material Design 风格，简洁的设计
-* 🚀 快速数据同步
-* 🧭 流畅的用户体验
-* 📦 丰富的功能
+* 🎨 Material & Clean design
+* 🚀 Fast data syncing
+* 🧭 Smooth user experience
+* 📦 Feature-rich
 
-## 构建和安装
-1. **安装 Android Studio**:
-    - 如果你还没有安装，请在你的电脑上下载并安装 [Android Studio](https://developer.android.com/studio)。
+## Building and Installing
+1. **Install Android Studio**:
+    - Download and install [Android Studio](https://developer.android.com/studio) on your computer if you haven't already.
 
-2. **克隆仓库**:
-    - 打开 Android Studio，选择 "从版本控制中获取项目"。
-    - 粘贴此仓库的链接，将其克隆到你的本地机器。
+2. **Clone the Repository**:
+    - Open Android Studio and select "Project from Version Control."
+    - Paste the link to this repository to clone it to your local machine.
 
-3. **构建 APK**:
-    - 在 Android Studio 中，导航到 `Build > APK`。
-    - 选择 "创建新密钥库"，并输入所需的信息，包括密码。
-    - 等待构建过程完成。
+3. **Build the APK**:
+    - In Android Studio, navigate to `Build > APK`.
+    - Select "Create New Keystore" and enter the required information, including a password.
+    - Wait for the build process to finish.
 
-## 贡献
+## Contribution
 
-- 在 GitHub issues 里选择任何你想要解决的问题
-- Fork 这个项目
-- 提交 Pull Request
-- 你的 PR 很快就会被审核啦
+- Pick any issue you would like to resolve
+- Fork the project
+- Open a Pull Request
+- Your PR will undergo review
 
-## 🗂️ 许可证
+## 🗂️ License
 
 StarryStore is released under the GNU General Public License v3.0 (GPLv3).
 
