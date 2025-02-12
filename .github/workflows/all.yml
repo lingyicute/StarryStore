@@ -1,21 +1,21 @@
-name: Build Release APK
+name: Multi-Branch Build Release APK
 
 on:
   workflow_dispatch:
-  push:
-    paths-ignore:
-      - '**.md'
-      - '**.yml'
-      - 'strings.xml'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        branch_name: [a, b, c, d, e]
+    name: Build Branch ${{ matrix.branch_name }}
+    
     steps:
-      - name: Check out repository
+      - name: Checkout ${{ matrix.branch_name }}
         uses: actions/checkout@v4
         with:
+          ref: ${{ matrix.branch_name }}
           submodules: true
 
       - name: Validate Gradle Wrapper
@@ -37,7 +37,8 @@ jobs:
       - name: Build Release APK
         run: ./gradlew assembleRelease
 
-      - uses: actions/upload-artifact@v4
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
         with:
-          name: Signed APK
+          name: APK-${{ matrix.branch_name }}
           path: app/build/outputs/apk
