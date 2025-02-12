@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        branch_name: [a, b, c, d, e]
+        branch_name: [0, 1, 00, 01, 000, 001]
     name: Build Branch ${{ matrix.branch_name }}
     
     steps:
