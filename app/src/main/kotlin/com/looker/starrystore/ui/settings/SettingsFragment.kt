@@ -62,8 +62,8 @@ class SettingsFragment : Fragment() {
         fun newInstance() = SettingsFragment()
 
         private const val BACKUP_MIME_TYPE = "application/json"
-        private const val REPO_BACKUP_NAME = "droidify_repos"
-        private const val SETTINGS_BACKUP_NAME = "droidify_settings"
+        private const val REPO_BACKUP_NAME = "starrystore_repos"
+        private const val SETTINGS_BACKUP_NAME = "starrystore_settings"
 
         private val localeCodesList: List<String> = BuildConfig.DETECTED_LOCALES
             .toList()
@@ -301,8 +301,8 @@ class SettingsFragment : Fragment() {
             )
             creditFoxy.title.text = getString(R.string.special_credits)
             creditFoxy.content.text = FOXY_DROID_TITLE
-            droidify.title.text = DROID_IFY_TITLE
-            droidify.content.text = BuildConfig.VERSION_NAME
+            starrystore.title.text = DROID_IFY_TITLE
+            starrystore.content.text = BuildConfig.VERSION_NAME
         }
         setChangeListener()
         viewLifecycleOwner.lifecycleScope.launch {
@@ -383,7 +383,7 @@ class SettingsFragment : Fragment() {
             creditFoxy.root.setOnClickListener {
                 openLink(FOXY_DROID_URL)
             }
-            droidify.root.setOnClickListener {
+            starrystore.root.setOnClickListener {
                 openLink(DROID_IFY_URL)
             }
         }

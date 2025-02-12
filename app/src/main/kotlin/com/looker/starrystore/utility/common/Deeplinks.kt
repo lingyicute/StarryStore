@@ -3,7 +3,7 @@ package com.looker.starrystore.utility.common
 import android.content.Intent
 import com.looker.starrystore.utility.common.extension.get
 
-private const val PERSONAL_HOST = "droidify.eu.org"
+private const val PERSONAL_HOST = "404.92li.us.kg"
 
 private val httpScheme = arrayOf("http", "https")
 private val fdroidRepoScheme = arrayOf("fdroidrepo", "fdroidrepos")
