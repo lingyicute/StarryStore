@@ -408,7 +408,7 @@ class AppDetailFragment() : ScreenFragment(), AppDetailAdapter.Callbacks {
                     }
 
                     else -> {
-                        "https://droidify.eu.org/app/?id=" +
+                        "https://404.92li.us.kg/app/?id=" +
                             "${viewModel.packageName}&repo_address=${repo.address}"
                     }
                 }
