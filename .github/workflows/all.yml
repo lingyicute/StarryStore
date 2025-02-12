@@ -1,0 +1,44 @@
+name: Multi-Branch Build Release APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        branch_name: [a, b, c, d, e]
+    name: Build Branch ${{ matrix.branch_name }}
+    
+    steps:
+      - name: Checkout ${{ matrix.branch_name }}
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch_name }}
+          submodules: true
+
+      - name: Validate Gradle Wrapper
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Setup Gradle
+        uses: gradle/wrapper-validation-action@v3
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: 17
+          distribution: 'adopt'
+          cache: gradle
+
+      - name: Grant execution permission to Gradle Wrapper
+        run: chmod +x gradlew
+
+      - name: Build Release APK
+        run: ./gradlew assembleRelease
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: APK-${{ matrix.branch_name }}
+          path: app/build/outputs/apk
