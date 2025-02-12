@@ -69,13 +69,12 @@
     <string name="invalid_signature_error_DESC">签名无效。</string>
     <string name="invalid_username_format">用户名格式无效</string>
     <string name="launch">启动</string>
-    <string name="license">许可证</string>
-    <string name="license_FORMAT">许可证 %s</string>
+    <string name="license">开源许可证</string>
+    <string name="license_FORMAT">开源许可证 %s</string>
     <string name="light">浅色</string>
     <string name="link_copied_to_clipboard">已复制链接</string>
     <string name="links">链接</string>
     <string name="list_animation">列表动画</string>
-    <string name="list_animation_description">在主页上显示列表动画</string>
     <string name="merging_FORMAT">合并 %s</string>
     <string name="name">名称</string>
     <string name="network_error_DESC">网络错误</string>

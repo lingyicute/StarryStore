@@ -95,14 +95,6 @@ data class Repository(
                 enabled = true,
                 fingerprint = "E6FB98BF225A07BF155C46D924F374457DCC50277652D57E453D524E00658512"
             ),
-            defaultRepository(
-                address = "https://f-droid.org/repo",
-                name = "F-Droid",
-                description = "The official F-Droid Free Software repos" +
-                    "itory. Everything in this repository is always buil" +
-                    "t from the source code.",
-                fingerprint = "43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB"
-            ),
         )
 
         val newlyAdded = listOf<Repository>(
